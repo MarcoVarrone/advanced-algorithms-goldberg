@@ -21,6 +21,7 @@ class Goldberg:
     def get_max_flow(self, source, sink):
         # Initialization
         self.distance[source] = self.n
+        self.source = source
         source_edges = source.out_edges()
 
         for edge in source_edges:
@@ -51,13 +52,14 @@ class Goldberg:
                 self.excess[vertex],
                 self.capacity[edge] - self.flow[edge]])
             self.send_flow(edge.source(), edge.target(), delta)
-            print("Pushing " + str(delta) + " from " + str(edge.source()) + " to " + str(edge.target()))
-
+            #print("Pushing " + str(delta) + " from " + str(edge.source()) + " to " + str(edge.target()))
+            if self.excess[vertex] == 0:
+                break
         return success
 
     def relabel(self, vertex):
         self.distance[vertex] = self.get_min_distance(vertex) + 1
-        print("Relabeling " + str(vertex) + " to dist " + str(self.distance[vertex]))
+        #print("Relabeling " + str(vertex) + " to dist " + str(self.distance[vertex]))
 
     def get_min_distance(self, vertex):
         min = float('inf')
@@ -82,6 +84,6 @@ class Goldberg:
 
     def get_active_vertex(self, sink):
         for v in self.graph.vertices():
-            if self.excess[v] > 0 and v != sink:
+            if self.excess[v] > 0 and v != sink and v != self.source:
                 return v
         return False
