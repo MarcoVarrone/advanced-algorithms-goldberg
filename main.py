@@ -1,5 +1,12 @@
+try:
+    from itertools import izip
+except:
+    import sys
+    sys.path.append("/usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages")
+    sys.path.append("/anaconda3/lib/python2.7/site-packages")
+
+
 import graph_tool.all as gt
-from itertools import izip
 from numpy.random import seed, random
 from scipy.linalg import norm
 from max_flow import Goldberg
@@ -87,7 +94,7 @@ def create_graph2():
 
 
 create_graph2()
-g = gt.load_graph("flow-example2.xml.gz")
+g = gt.load_graph("flow-example3.xml.gz")
 cap = g.ep.cap
 #for e in g.edges():
 #    print(e)
