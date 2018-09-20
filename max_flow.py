@@ -1,7 +1,8 @@
 import graph_tool.all as gt
+from sets import Set
 import math
 from time import sleep
-from memory_profiler import profile
+
 
 class Goldberg:
     def __init__(self, graph):
@@ -17,7 +18,6 @@ class Goldberg:
         self.graph.vp.excess = self.excess
         self.graph.ep.flow = self.flow
 
-    @profile(precision=5)
     def get_max_flow(self, source, sink):
         # Initialization
         self.distance[source] = self.n
