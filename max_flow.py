@@ -17,7 +17,6 @@ class Goldberg:
         self.graph.vp.excess = self.excess
         self.graph.ep.flow = self.flow
 
-    @profile(precision = 5)
     def get_max_flow(self, source, sink):
         # Initialization
         self.distance[source] = self.n

@@ -6,7 +6,7 @@ except:
     sys.path.append("/anaconda3/lib/python2.7/site-packages")
 
 import graph_tool.all as gt
-from numpy.random import seed, random
+from numpy.random import seed, random, random_integers
 from scipy.linalg import norm
 from max_flow import Goldberg
 import math
@@ -89,7 +89,6 @@ def create_graph2():
     g.save("flow-example3.xml.gz")
     gt.graph_draw(g, edge_pen_width=gt.prop_to_size(capacity, mi=0, ma=3, power=1),
                   output="flow-example3.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
-
 
 
 create_graph2()
