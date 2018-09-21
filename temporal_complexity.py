@@ -1,10 +1,3 @@
-try:
-    from itertools import izip
-except:
-    import sys
-    sys.path.append("/usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages")
-    sys.path.append("/anaconda3/lib/python2.7/site-packages")
-
 from io import StringIO
 import cProfile, pstats
 import test_triangulation as t
@@ -17,10 +10,11 @@ import math
 file = open("temporal_complexity.log", "w")
 
 for i in [10, 30, 60, 80, 100, 150, 200, 250]:
-    title = '- Parte grafo con ' + str(i) + ' nodi.'
+
+    g = t.create_graph_triangulation(i)
+    title = '- Parte grafo con ' + str(i) + ' nodi e ' + str(len(g.get_edges())) + ' archi.'
     print(title)
     file.write(title)
-    g = t.create_graph_triangulation(i)
     g.save("flow-random.xml.gz")
     gt.graph_draw(g, edge_pen_width=gt.prop_to_size(g.ep.cap, mi=0, ma=3, power=1),
                       output="flow-random.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
