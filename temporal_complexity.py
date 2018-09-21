@@ -1,3 +1,8 @@
+import sys
+sys.path.append("/usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages")
+sys.path.append("/anaconda3/lib/python2.7/site-packages")
+
+
 from io import StringIO
 import cProfile, pstats
 import test_triangulation as t
@@ -7,9 +12,9 @@ from scipy.linalg import norm
 from max_flow import Goldberg
 import math
 
-file = open("temporal_complexity.log", "w")
+file = open("temporal_complexity_data", "w")
 
-for i in [10, 30, 60, 80, 100, 150, 200, 250]:
+for i in [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 1000]:
 
     g = t.create_graph_triangulation(i)
     title = '- Parte grafo con ' + str(i) + ' nodi e ' + str(len(g.get_edges())) + ' archi.'
