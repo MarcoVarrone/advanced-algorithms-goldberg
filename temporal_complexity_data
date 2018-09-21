@@ -1,0 +1,289 @@
+- Parte grafo con 50 nodi e 276 archi.         321050 function calls in 0.859 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.129    0.129    0.859    0.859 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+    87079    0.456    0.000    0.495    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+     4558    0.060    0.000    0.154    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     9116    0.094    0.000    0.094    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    10769    0.066    0.000    0.071    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    97848    0.032    0.000    0.045    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+    97848    0.014    0.000    0.014    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     9272    0.009    0.000    0.009    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+     4558    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 100 nodi e 578 archi.         1374482 function calls in 3.472 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.499    0.499    3.472    3.472 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+   374444    1.887    0.000    2.053    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    19166    0.233    0.000    0.604    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    38332    0.368    0.000    0.368    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    45086    0.259    0.000    0.279    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   419530    0.131    0.000    0.186    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   419530    0.055    0.000    0.055    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+    39226    0.035    0.000    0.035    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    19166    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 150 nodi e 874 archi.         3423155 function calls in 10.090 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.511    1.511   10.090   10.090 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+   935653    5.416    0.000    5.901    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    47178    0.678    0.000    1.798    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    94356    1.108    0.000    1.108    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   110295    0.722    0.000    0.778    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  1045948    0.389    0.000    0.540    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+  1045948    0.151    0.000    0.151    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+    96597    0.103    0.000    0.103    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    47178    0.012    0.000    0.012    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 200 nodi e 1172 archi.         6406884 function calls in 16.498 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    2.286    2.286   16.498   16.498 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+  1751942    9.106    0.000    9.881    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    88420    1.094    0.000    2.856    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   176840    1.747    0.000    1.747    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   205175    1.211    0.000    1.305    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  1957117    0.608    0.000    0.868    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+  1957117    0.260    0.000    0.260    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   181851    0.171    0.000    0.171    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    88420    0.015    0.000    0.015    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 250 nodi e 1472 archi.         9191873 function calls in 23.797 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    3.450    3.450   23.797   23.797 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+  2535905   13.169    0.000   14.303    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   120742    1.534    0.000    3.993    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   241484    2.436    0.000    2.436    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   285735    1.694    0.000    1.823    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  2821640    0.886    0.000    1.263    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+  2821640    0.377    0.000    0.377    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   243983    0.227    0.000    0.227    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   120742    0.023    0.000    0.023    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 300 nodi e 1774 archi.         13371885 function calls in 35.260 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.174    5.174   35.260   35.260 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+  3702564   19.579    0.000   21.266    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   172412    2.251    0.000    5.829    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   344824    3.547    0.000    3.547    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   409203    2.466    0.000    2.658    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  4111767    1.315    0.000    1.879    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+  4111767    0.564    0.000    0.564    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   346934    0.333    0.000    0.333    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   172412    0.031    0.000    0.031    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 350 nodi e 2074 archi.         19858714 function calls in 48.148 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    6.536    6.536   48.148   48.148 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+  5466682   26.964    0.000   29.269    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   265522    3.124    0.000    8.123    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   531044    4.958    0.000    4.958    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   616676    3.471    0.000    3.735    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  6083358    1.797    0.000    2.570    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+  6083358    0.773    0.000    0.773    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   546550    0.483    0.000    0.483    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   265522    0.042    0.000    0.042    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 400 nodi e 2374 archi.         26050944 function calls in 64.775 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    8.928    8.928   64.775   64.775 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+  7174887   36.097    0.000   39.222    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   347268    4.232    0.000   10.974    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   694536    6.683    0.000    6.683    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   807679    4.642    0.000    4.995    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  7982566    2.421    0.000    3.479    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+  7982566    1.058    0.000    1.058    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   714172    0.656    0.000    0.656    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   347268    0.059    0.000    0.059    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 450 nodi e 2672 archi.         33541623 function calls in 82.773 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   11.394   11.394   82.773   82.773 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+  9242007   46.319    0.000   50.269    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   446382    5.403    0.000   13.918    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   892764    8.441    0.000    8.441    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  1037405    5.896    0.000    6.358    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 10279412    3.080    0.000    4.412    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 10279412    1.333    0.000    1.333    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   917857    0.834    0.000    0.834    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   446382    0.073    0.000    0.073    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 500 nodi e 2972 archi.         41853670 function calls in 103.826 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   14.173   14.173  103.826  103.826 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+ 11554112   58.343    0.000   63.368    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   551534    6.690    0.000   17.312    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  1103068   10.532    0.000   10.532    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  1284376    7.372    0.000    7.938    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 12838488    3.925    0.000    5.591    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 12838488    1.667    0.000    1.667    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  1132068    1.035    0.000    1.035    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   551534    0.091    0.000    0.091    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 550 nodi e 3272 archi.         50332418 function calls in 124.087 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   16.992   16.992  124.087  124.087 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+ 13899006   69.650    0.000   75.621    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   661800    8.015    0.000   20.756    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  1323600   12.632    0.000   12.632    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  1543297    8.793    0.000    9.477    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 15442303    4.645    0.000    6.655    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 15442303    2.011    0.000    2.011    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  1358307    1.242    0.000    1.242    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   661800    0.108    0.000    0.108    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 600 nodi e 3570 archi.         59588666 function calls in 147.381 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   20.367   20.367  147.381  147.381 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+ 16469160   82.731    0.000   89.805    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   779704    9.452    0.000   24.488    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  1559408   14.908    0.000   14.908    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  1821772   10.448    0.000   11.248    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 18290932    5.497    0.000    7.874    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 18290932    2.377    0.000    2.377    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  1597052    1.473    0.000    1.473    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   779704    0.128    0.000    0.128    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 650 nodi e 3870 archi.         70294673 function calls in 166.432 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   22.253   22.253  166.432  166.432 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+ 19478782   94.735    0.000  102.800    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+   907936   10.491    0.000   27.156    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  1815872   16.533    0.000   16.533    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  2123141   11.699    0.000   12.599    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 21601923    6.250    0.000    8.965    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 21601923    2.715    0.000    2.715    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  1857158    1.624    0.000    1.624    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   907936    0.132    0.000    0.132    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 700 nodi e 4172 archi.         81964742 function calls in 184.415 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   23.835   23.835  184.415  184.415 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+ 22730270  106.320    0.000  115.280    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  1054758   11.386    0.000   29.515    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  2109516   17.999    0.000   17.999    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  2466217   13.001    0.000   14.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 25196487    6.938    0.000    9.960    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 25196487    3.022    0.000    3.022    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  2156247    1.785    0.000    1.785    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+  1054758    0.130    0.000    0.130    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 750 nodi e 4474 archi.         94680344 function calls in 222.458 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   29.536   29.536  222.458  222.458 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+ 26270615  127.130    0.000  137.958    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  1215410   13.885    0.000   36.045    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  2430820   21.987    0.000   21.987    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  2840921   15.577    0.000   16.766    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 29111536    8.391    0.000   12.016    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 29111536    3.625    0.000    3.625    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  2484094    2.154    0.000    2.154    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+  1215410    0.173    0.000    0.173    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 800 nodi e 4772 archi.         108021116 function calls in 267.618 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   37.141   37.141  267.618  267.618 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+ 30028271  151.336    0.000  164.381    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  1373196   16.825    0.000   43.549    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  2746392   26.483    0.000   26.483    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  3212549   18.511    0.000   19.921    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 33240820   10.120    0.000   14.454    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 33240820    4.334    0.000    4.334    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  2805870    2.626    0.000    2.626    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+  1373196    0.241    0.000    0.241    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo con 1000 nodi e 5970 archi.         168369801 function calls in 421.140 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   58.615   58.615  421.140  421.140 {method 'get_max_flow' of 'max_flow.Goldberg' objects}
+ 46946925  239.455    0.000  259.825    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  2104502   26.126    0.000   67.642    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  4209004   41.160    0.000   41.160    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  4939954   28.839    0.000   31.022    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+ 51886879   15.806    0.000   22.554    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+ 51886879    6.748    0.000    6.748    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  4291154    4.035    0.000    4.035    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+  2104502    0.357    0.000    0.357    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
