@@ -1,10 +1,3 @@
-try:
-    from itertools import izip
-except:
-    import sys
-    sys.path.append("/usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages")
-    sys.path.append("/anaconda3/lib/python2.7/site-packages")
-
 import graph_tool.all as gt
 from numpy.random import seed, random, random_integers
 from scipy.linalg import norm
@@ -14,7 +7,7 @@ import math
 # Number of nodes
 N = 50
 # Number of edges
-M = 4
+M = 200
 
 '''def create_graph(N, M):
     g = Graph()
@@ -22,7 +15,7 @@ M = 4
     # Create a graph of
     g.add_vertex(N)
     # insert some random links
-    for s, t in izip(randint(0, N, M), randint(0, N, M)):
+    for s, t in zip(randint(0, N, M), randint(0, N, M)):
         g.add_edge(g.vertex(s), g.vertex(t))
 
     capacity = g.new_edge_property("double")
@@ -48,7 +41,7 @@ def create_graph1():
     # The capacity will be defined as the inverse euclidean distance
     capacity = g.new_edge_property("int")
     for e in g.edges():
-        print(min(math.ceil(1.0 / norm(pos[e.target()].a - pos[e.source()].a)), 10))
+        #print(min(math.ceil(1.0 / norm(pos[e.target()].a - pos[e.source()].a)), 10))
         capacity[e] = min(math.ceil(1.0 / norm(pos[e.target()].a - pos[e.source()].a)), 10)
     g.ep.cap = capacity
     g.vp.pos = pos
@@ -91,8 +84,8 @@ def create_graph2():
                   output="flow-example3.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
 
 
-create_graph2()
-g = gt.load_graph("flow-example3.xml.gz")
+create_graph1()
+g = gt.load_graph("flow-example2.xml.gz")
 cap = g.ep.cap
 #for e in g.edges():
 #    print(e)
