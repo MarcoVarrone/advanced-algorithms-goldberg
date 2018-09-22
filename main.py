@@ -7,13 +7,14 @@ from numpy.random import seed, random, random_integers
 from scipy.linalg import norm
 from scipy.stats import poisson
 from max_flow import Goldberg
+from wave_implementation import WaveImplementation
 import numpy as np
 import math
 
 # Number of nodes
 N = 50
 # Number of edges
-M = 5
+M = 10
 
 '''def create_graph(N, M):
     g = Graph()
@@ -94,27 +95,30 @@ def create_graph2():
 
 g = create_graph1()
 cap = g.ep.cap
-src, tgt = g.vertex(3), g.vertex(2)
+src, tgt = g.vertex(0), g.vertex(1)
 solver = Goldberg(graph=g)
-solution = solver.get_max_flow(src, tgt)
-print(solution)
+#solution = solver.get_max_flow(src, tgt)
+#print("Il max flow trovato da Goldberg è:", solution)
 
-#print the resulting graph
-flow = solver.get_flow()
+#using WaveImplementation, find the solution to test and print the resulting graph
+solver = WaveImplementation(graph=g)
+solution = solver.get_max_flow(src, tgt)
+print("Il max flow trovato da Wave è:", solution)
+
 labels = g.new_edge_property("string")
 for edge in g.edges():
-    labels[edge] = str(cap[edge] - int(flow[edge]))+"/"+str(cap[edge])
+    labels[edge] = str(solver.get_flow()[edge])+"/"+str(cap[edge])
 
-gt.graph_draw(g, edge_pen_width=gt.prop_to_size(cap, mi=1, ma=5, power=1),
-                  output="max-flow-our-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
+gt.graph_draw(g, edge_pen_width=gt.prop_to_size(labels, mi=1, ma=5, power=1),
+                  output="max-flow-wave-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
 
 
-#using library algorithm, find the solution to test and print the resulting graph
+#using GraphTool algorithm, find the solution to test and print the resulting graph
 res = gt.push_relabel_max_flow(g, src, tgt, cap)
 res.a = cap.a - res.a  # the actual flow
 max_flow = sum(res[e] for e in tgt.in_edges())
-print(max_flow)
-
+print("Il max flow trovato da GraphTool è:", max_flow)
+labels = g.new_edge_property("string")
 for edge in g.edges():
     labels[edge] = str(res[edge])+"/"+str(cap[edge])
 

@@ -10,9 +10,9 @@ class Goldberg:
         self.source = None
         self.sink = None
 
-        self.distance = self.graph.new_vertex_property("double", 0)
-        self.excess = self.graph.new_vertex_property("double", 0)
-        self.flow = self.graph.new_edge_property("double", 0)
+        self.distance = self.graph.new_vertex_property("int", 0)
+        self.excess = self.graph.new_vertex_property("int", 0)
+        self.flow = self.graph.new_edge_property("int", 0)
         self.capacity = self.graph.ep.cap
 
         self.graph.vp.distance = self.distance
@@ -54,15 +54,16 @@ class Goldberg:
             delta = min([
                 self.excess[vertex],
                 self.capacity[edge] - self.flow[edge]])
+
             self.send_flow(vertex, edge.target(), delta)
-            # print("Pushing " + str(delta) + " from " + str(edge.source()) + " to " + str(edge.target()))
+            print("Pushing " + str(delta) + " from " + str(edge.source()) + " to " + str(edge.target()))
             if self.excess[vertex] == 0:
                 break
         return success
 
     def relabel(self, vertex):
         self.distance[vertex] = self.get_min_distance(vertex) + 1
-        # print("Relabeling " + str(vertex) + " to dist " + str(self.distance[vertex]))
+        print("Relabeling " + str(vertex) + " to dist " + str(self.distance[vertex]))
 
     def get_min_distance(self, vertex):
         min = float('inf')
