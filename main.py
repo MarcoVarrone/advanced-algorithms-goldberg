@@ -1,3 +1,7 @@
+import sys
+sys.path.append("/usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages")
+sys.path.append("/anaconda3/lib/python2.7/site-packages")
+
 import graph_tool.all as gt
 from numpy.random import seed, random, random_integers
 from scipy.linalg import norm
@@ -9,7 +13,7 @@ import math
 # Number of nodes
 N = 50
 # Number of edges
-M = 4
+M = 5
 
 '''def create_graph(N, M):
     g = Graph()
@@ -47,9 +51,10 @@ def create_graph1():
         capacity[e] = min(math.ceil(1.0 / norm(pos[e.target()].a - pos[e.source()].a)), 10)
     g.ep.cap = capacity
     g.vp.pos = pos
-    g.save("flow-example2.xml.gz")
     gt.graph_draw(g, pos=pos, edge_pen_width=gt.prop_to_size(capacity, mi=1, ma=1, power=1),
                   output="graph_to_solve.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
+
+    return g
 
 def create_graph2():
     gt.seed_rng(42)
@@ -81,9 +86,9 @@ def create_graph2():
     capacity[e5] = 5
     capacity[e10] = 5
     g.ep.cap = capacity
-    g.save("flow-example3.xml.gz")
     gt.graph_draw(g, edge_pen_width=gt.prop_to_size(capacity, mi=1, ma=1, power=1),
                   output="graph_to_solve.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
+    return g
 
 
 
