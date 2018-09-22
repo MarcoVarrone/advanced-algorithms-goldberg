@@ -19,6 +19,10 @@ cdef class Goldberg:
         self.flow = self.graph.new_edge_property("double", 0)
         self.capacity = self.graph.ep.cap
 
+        self.graph.vp.distance = self.distance
+        self.graph.vp.excess = self.excess
+        self.graph.ep.flow = self.flow
+
         self.actives = set()
 
     cpdef int get_max_flow(self, source, sink):
