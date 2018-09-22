@@ -100,7 +100,7 @@ solution = solver.get_max_flow(src, tgt)
 print(solution)
 
 #print the resulting graph
-flow = g.ep.flow
+flow = solver.get_flow()
 labels = g.new_edge_property("string")
 for edge in g.edges():
     labels[edge] = str(cap[edge] - int(flow[edge]))+"/"+str(cap[edge])

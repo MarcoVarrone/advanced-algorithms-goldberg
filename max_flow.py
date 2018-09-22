@@ -1,7 +1,7 @@
 import graph_tool.all as gt
 import math
 from time import sleep
-
+from memory_profiler import profile
 
 class Goldberg:
     def __init__(self, graph):
@@ -99,3 +99,7 @@ class Goldberg:
                 self.actives.add(vertex)
         else:
             self.actives.discard(vertex)
+
+    #getter in order to print in main.py the graph
+    def get_flow(self):
+        return self.flow
