@@ -1,7 +1,9 @@
 import graph_tool.all as gt
 from numpy.random import seed, random, random_integers
 from scipy.linalg import norm
+from scipy.stats import poisson
 from max_flow import Goldberg
+import numpy as np
 import math
 
 # Number of nodes
@@ -41,7 +43,7 @@ def create_graph1():
     # The capacity will be defined as the inverse euclidean distance
     capacity = g.new_edge_property("int")
     for e in g.edges():
-        #print(min(math.ceil(1.0 / norm(pos[e.target()].a - pos[e.source()].a)), 10))
+        # print(min(math.ceil(1.0 / norm(pos[e.target()].a - pos[e.source()].a)), 10))
         capacity[e] = min(math.ceil(1.0 / norm(pos[e.target()].a - pos[e.source()].a)), 10)
     g.ep.cap = capacity
     g.vp.pos = pos
@@ -55,16 +57,16 @@ def create_graph2():
     g = gt.Graph(directed=True)
     for i in range(4):
         g.add_vertex()
-    e1= g.add_edge(g.vertex(0), g.vertex(1))
-    e2= g.add_edge(g.vertex(0), g.vertex(2))
-    e3=g.add_edge(g.vertex(1), g.vertex(2))
-    e4=g.add_edge(g.vertex(1), g.vertex(3))
-    e5=g.add_edge(g.vertex(2), g.vertex(3))
-    e6=g.add_edge(g.vertex(1), g.vertex(0))
-    e7=g.add_edge(g.vertex(2), g.vertex(0))
-    e8=g.add_edge(g.vertex(2), g.vertex(1))
-    e9=g.add_edge(g.vertex(3), g.vertex(1))
-    e10=g.add_edge(g.vertex(3), g.vertex(2))
+    e1 = g.add_edge(g.vertex(0), g.vertex(1))
+    e2 = g.add_edge(g.vertex(0), g.vertex(2))
+    e3 = g.add_edge(g.vertex(1), g.vertex(2))
+    e4 = g.add_edge(g.vertex(1), g.vertex(3))
+    e5 = g.add_edge(g.vertex(2), g.vertex(3))
+    e6 = g.add_edge(g.vertex(1), g.vertex(0))
+    e7 = g.add_edge(g.vertex(2), g.vertex(0))
+    e8 = g.add_edge(g.vertex(2), g.vertex(1))
+    e9 = g.add_edge(g.vertex(3), g.vertex(1))
+    e10 = g.add_edge(g.vertex(3), g.vertex(2))
 
     # The capacity will be defined as the inverse euclidean distance
     capacity = g.new_edge_property("int")
@@ -84,8 +86,8 @@ def create_graph2():
                   output="graph_to_solve.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
 
 
-create_graph1()
-g = gt.load_graph("flow-example2.xml.gz")
+
+g = create_graph1()
 cap = g.ep.cap
 src, tgt = g.vertex(3), g.vertex(2)
 solver = Goldberg(graph=g)
