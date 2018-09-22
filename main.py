@@ -7,7 +7,7 @@ import math
 # Number of nodes
 N = 50
 # Number of edges
-M = 200
+M = 4
 
 '''def create_graph(N, M):
     g = Graph()
@@ -27,7 +27,7 @@ M = 200
 
 def create_graph1():
     gt.seed_rng(42)
-    seed(42)
+    seed(927)
     points = random((M, 2))
     points[0] = [0, 0]
     points[1] = [1, 1]
@@ -46,12 +46,12 @@ def create_graph1():
     g.ep.cap = capacity
     g.vp.pos = pos
     g.save("flow-example2.xml.gz")
-    gt.graph_draw(g, pos=pos, edge_pen_width=gt.prop_to_size(capacity, mi=0, ma=3, power=1),
-                  output="flow-example2.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
+    gt.graph_draw(g, pos=pos, edge_pen_width=gt.prop_to_size(capacity, mi=1, ma=1, power=1),
+                  output="graph_to_solve.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
 
 def create_graph2():
     gt.seed_rng(42)
-    seed(42)
+    seed(927)
     g = gt.Graph(directed=True)
     for i in range(4):
         g.add_vertex()
@@ -80,21 +80,36 @@ def create_graph2():
     capacity[e10] = 5
     g.ep.cap = capacity
     g.save("flow-example3.xml.gz")
-    gt.graph_draw(g, edge_pen_width=gt.prop_to_size(capacity, mi=0, ma=3, power=1),
-                  output="flow-example3.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
+    gt.graph_draw(g, edge_pen_width=gt.prop_to_size(capacity, mi=1, ma=1, power=1),
+                  output="graph_to_solve.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
 
 
 create_graph1()
 g = gt.load_graph("flow-example2.xml.gz")
 cap = g.ep.cap
-#for e in g.edges():
-#    print(e)
-#    print(g.ep.cap[e])
-src, tgt = g.vertex(0), g.vertex(3)
+src, tgt = g.vertex(3), g.vertex(2)
 solver = Goldberg(graph=g)
-print(solver.get_max_flow(src, tgt))
+solution = solver.get_max_flow(src, tgt)
+print(solution)
 
+#print the resulting graph
+flow = g.ep.flow
+labels = g.new_edge_property("string")
+for edge in g.edges():
+    labels[edge] = str(cap[edge] - int(flow[edge]))+"/"+str(cap[edge])
+
+gt.graph_draw(g, edge_pen_width=gt.prop_to_size(cap, mi=1, ma=5, power=1),
+                  output="max-flow-our-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
+
+
+#using library algorithm, find the solution to test and print the resulting graph
 res = gt.push_relabel_max_flow(g, src, tgt, cap)
 res.a = cap.a - res.a  # the actual flow
 max_flow = sum(res[e] for e in tgt.in_edges())
 print(max_flow)
+
+for edge in g.edges():
+    labels[edge] = str(res[edge])+"/"+str(cap[edge])
+
+gt.graph_draw(g, edge_pen_width=gt.prop_to_size(res, mi=1, ma=5, power=1),
+                  output="max-flow-library-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
