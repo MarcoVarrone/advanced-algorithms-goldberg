@@ -1,6 +1,6 @@
 from io import StringIO
 import cProfile, pstats
-import test_triangulation as t
+from test import test_triangulation as t
 import graph_tool.all as gt
 from numpy.random import seed, random, random_integers
 from scipy.linalg import norm
@@ -27,7 +27,7 @@ for i in [10, 30, 60, 80, 100, 150, 200, 250]:
     pr = cProfile.Profile()
     pr.enable()
 
-    solution = solver.get_max_flow(src, tgt)
+    solution = solver.get_max_flow(source, sink)
     #res = gt.push_relabel_max_flow(g, src, tgt, cap)
 
     pr.disable()
