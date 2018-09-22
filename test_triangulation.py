@@ -31,17 +31,15 @@ def create_graph_triangulation(m, seed_number=42, type="simple"):
 
 def select_source_target(graph):
     n = len(graph.get_vertices())
-    source = randint(0, n - 1)
+    source = graph.vertex(randint(0, n - 1))
     target = None
     while target is None or source == target:
-        target = randint(0, n - 1)
+        target = graph.vertex(randint(0, n - 1))
     return source, target
 
 
-def get_real_max_flow(graph, source_idx, target_idx):
+def get_real_max_flow(graph, source, target):
     cap = graph.ep.cap
-    source = graph.vertex(source_idx)
-    target = graph.vertex(target_idx)
     res = gt.push_relabel_max_flow(graph, source, target, cap)
     res.a = cap.a - res.a  # the actual flow
     return sum(res[e] for e in target.in_edges())
