@@ -25,9 +25,7 @@ class Triangulation(Generator):
         points[1] = [1, 1]
         g, pos = gt.triangulation(points, type=self.type)
         g.set_directed(True)
-        #g, temp_edges = super().create_reverse_edges(g, self.directed)
-
-        gt.graph_draw(g, output="provaprova.pdf", vertex_text=g.vertex_index)
+        g, temp_edges = super().create_reverse_edges(g, self.directed)
 
         # The capacity will be defined as the inverse euclidean distance
         capacity = g.new_edge_property("int")

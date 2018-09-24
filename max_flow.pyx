@@ -14,9 +14,9 @@ cdef class Goldberg:
         self.source = None
         self.sink = None
 
-        self.distance = self.graph.new_vertex_property("double", 0)
-        self.excess = self.graph.new_vertex_property("double", 0)
-        self.flow = self.graph.new_edge_property("double", 0)
+        self.distance = self.graph.new_vertex_property("int", 0)
+        self.excess = self.graph.new_vertex_property("int", 0)
+        self.flow = self.graph.new_edge_property("int", 0)
         self.capacity = self.graph.ep.cap
 
         self.graph.vp.distance = self.distance
@@ -42,9 +42,25 @@ cdef class Goldberg:
                 self.relabel(active)
             active = self.get_active_vertex()
 
+        for e in self.graph.edges():
+            if self.flow[e] < 0:
+                self.flow[e] = 0
+
+        for v in self.graph.vertices():
+            if v == self.source or v == self.sink:
+                continue
+            tot_in = 0
+            for e in v.in_edges():
+                tot_in += self.flow[e]
+            tot_out = 0
+            for e in v.out_edges():
+                tot_out += self.flow[e]
+            #print("Vertex "+str(v)+" Total in: "+str(tot_in)+" Total out: "+str(tot_out))
         max_flow = 0
         for e in sink.in_edges():
             max_flow += self.flow[e]
+
+
         return max_flow
 
     cdef bint push(self, vertex):
@@ -56,9 +72,7 @@ cdef class Goldberg:
                     self.capacity[edge] == self.flow[edge]:
                 continue
             success = True
-            delta = min([
-                self.excess[vertex],
-                self.capacity[edge] - self.flow[edge]])
+            delta = min([self.excess[vertex], self.capacity[edge] - self.flow[edge]])
             self.send_flow(vertex, edge.target(), delta)
             # print("Pushing " + str(delta) + " from " + str(edge.source()) + " to " + str(edge.target()))
             if self.excess[vertex] == 0:
@@ -69,8 +83,8 @@ cdef class Goldberg:
         self.distance[vertex] = self.get_min_distance(vertex) + 1
         # print("Relabeling " + str(vertex) + " to dist " + str(self.distance[vertex]))
 
-    cdef int get_min_distance(self, vertex):
-        min = float('inf')
+    cdef get_min_distance(self, vertex):
+        min = 10000000
         for e in vertex.out_edges():
             if self.flow[e] == self.capacity[e]:
                 continue
@@ -81,10 +95,13 @@ cdef class Goldberg:
         return min
 
     cdef send_flow(self, source, target, unsigned int delta):
+
         self.flow[self.graph.edge(source, target)] += delta
         self.flow[self.graph.edge(target, source)] -= delta
+        #print("Sending flow from "+str(source)+" to "+str(target)+": "+str(self.flow[self.graph.edge(source, target)])+" with capacity "+str(self.capacity[self.graph.edge(source, target)]))
         self.set_excess(source, self.excess[source] - delta)
         self.set_excess(target, self.excess[target] + delta)
+        #print("Set excess to reverse edge from "+str(target)+" to "+str(source)+" to "+str(self.excess[target]))
 
     cdef get_active_vertex(self):
         if len(self.actives) == 0:
@@ -95,9 +112,10 @@ cdef class Goldberg:
             return v
 
     cdef set_excess(self, vertex, value):
-        self.excess[vertex] = value
         if vertex == self.sink or vertex == self.source:
             return
+        self.excess[vertex] = value
+
         if value > 0:
             if vertex not in self.actives:
                 self.actives.add(vertex)

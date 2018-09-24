@@ -96,12 +96,12 @@ def create_graph2():
 
 
 generator = Triangulation(N, seed=42, directed=False)
-g = generator.generate()
+g, temp_edges = generator.generate()
 cap = g.ep.cap
 src, tgt = g.vertex(0), g.vertex(1)
 solver = Goldberg(graph=g)
-# solution = solver.get_max_flow(src, tgt)
-# print("Il max flow trovato da Goldberg è:", solution)
+solution = solver.get_max_flow(src, tgt)
+print("Il max flow trovato da Goldberg è:", solution)
 
 # using WaveImplementation, find the solution to test and print the resulting graph
 solver = WaveImplementation(graph=g)
