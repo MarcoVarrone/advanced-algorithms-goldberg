@@ -97,8 +97,29 @@ def create_graph2():
 
 generator = Triangulation(N, seed=42, directed=False)
 g, temp_edges = generator.generate()
+
+#to get a directed graph
+for edge in temp_edges:
+    g.remove_edge(edge)
+
 cap = g.ep.cap
+gt.graph_draw(g, edge_pen_width=gt.prop_to_size(cap, mi=1, ma=1, power=1),
+                  output="graph_to_solve.pdf", vertex_text=g.vertex_index, edge_text=g.ep.cap)
 src, tgt = g.vertex(0), g.vertex(1)
+
+# using GraphTool algorithm, find the solution to test and print the resulting graph
+res = gt.push_relabel_max_flow(g, src, tgt, cap)
+res.a = cap.a - res.a  # the actual flow
+max_flow = sum(res[e] for e in tgt.in_edges())
+print("Il max flow trovato da GraphTool è:", max_flow)
+labels = g.new_edge_property("string")
+for edge in g.edges():
+    labels[edge] = str(res[edge]) + "/" + str(cap[edge])
+
+gt.graph_draw(g, edge_pen_width=gt.prop_to_size(res, mi=1, ma=5, power=1),
+              output="max-flow-library-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
+
+#using GoldbergImplementation
 solver = Goldberg(graph=g)
 solution = solver.get_max_flow(src, tgt)
 print("Il max flow trovato da Goldberg è:", solution)
@@ -114,15 +135,3 @@ for edge in g.edges():
 
 gt.graph_draw(g, edge_pen_width=gt.prop_to_size(labels, mi=1, ma=5, power=1),
               output="max-flow-wave-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
-
-# using GraphTool algorithm, find the solution to test and print the resulting graph
-res = gt.push_relabel_max_flow(g, src, tgt, cap)
-res.a = cap.a - res.a  # the actual flow
-max_flow = sum(res[e] for e in tgt.in_edges())
-print("Il max flow trovato da GraphTool è:", max_flow)
-labels = g.new_edge_property("string")
-for edge in g.edges():
-    labels[edge] = str(res[edge]) + "/" + str(cap[edge])
-
-gt.graph_draw(g, edge_pen_width=gt.prop_to_size(res, mi=1, ma=5, power=1),
-              output="max-flow-library-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)

@@ -66,19 +66,24 @@ class Goldberg:
         print("Relabeling " + str(vertex) + " to dist " + str(self.distance[vertex]))
 
     def get_min_distance(self, vertex):
+        print("Sto calcolando la minima distanza di " + str(vertex))
         min = float('inf')
         for e in vertex.out_edges():
+            print(str(e) + " ha flow " + str(self.flow[e]) + " e capacità " + str(self.capacity[e]))
             if self.flow[e] == self.capacity[e]:
                 continue
 
             v = e.target()
             if self.distance[v] < min:
                 min = self.distance[v]
+        if min == float('inf'):
+            min = 100
+            self.actives.discard(vertex)
         return min
 
     def send_flow(self, source, target, delta):
         self.flow[self.graph.edge(source, target)] += delta
-        self.flow[self.graph.edge(target, source)] -= delta
+        #self.flow[self.graph.edge(target, source)] -= delta
         self.set_excess(source, self.excess[source] - delta)
         self.set_excess(target, self.excess[target] + delta)
 
