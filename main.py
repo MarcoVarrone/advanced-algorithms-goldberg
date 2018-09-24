@@ -1,4 +1,5 @@
 import sys
+
 sys.path.append("/usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages")
 sys.path.append("/anaconda3/lib/python2.7/site-packages")
 
@@ -10,6 +11,7 @@ from max_flow import Goldberg
 from wave_implementation import WaveImplementation
 import numpy as np
 import math
+from generation.Triangulation import Triangulation
 
 # Number of nodes
 N = 50
@@ -57,6 +59,7 @@ def create_graph1():
 
     return g
 
+
 def create_graph2():
     gt.seed_rng(42)
     seed(927)
@@ -92,35 +95,34 @@ def create_graph2():
     return g
 
 
-
-g = create_graph1()
+generator = Triangulation(N, seed=42, directed=False)
+g = generator.generate()
 cap = g.ep.cap
 src, tgt = g.vertex(0), g.vertex(1)
 solver = Goldberg(graph=g)
-#solution = solver.get_max_flow(src, tgt)
-#print("Il max flow trovato da Goldberg è:", solution)
+# solution = solver.get_max_flow(src, tgt)
+# print("Il max flow trovato da Goldberg è:", solution)
 
-#using WaveImplementation, find the solution to test and print the resulting graph
+# using WaveImplementation, find the solution to test and print the resulting graph
 solver = WaveImplementation(graph=g)
 solution = solver.get_max_flow(src, tgt)
 print("Il max flow trovato da Wave è:", solution)
 
 labels = g.new_edge_property("string")
 for edge in g.edges():
-    labels[edge] = str(solver.get_flow()[edge])+"/"+str(cap[edge])
+    labels[edge] = str(solver.get_flow()[edge]) + "/" + str(cap[edge])
 
 gt.graph_draw(g, edge_pen_width=gt.prop_to_size(labels, mi=1, ma=5, power=1),
-                  output="max-flow-wave-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
+              output="max-flow-wave-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
 
-
-#using GraphTool algorithm, find the solution to test and print the resulting graph
+# using GraphTool algorithm, find the solution to test and print the resulting graph
 res = gt.push_relabel_max_flow(g, src, tgt, cap)
 res.a = cap.a - res.a  # the actual flow
 max_flow = sum(res[e] for e in tgt.in_edges())
 print("Il max flow trovato da GraphTool è:", max_flow)
 labels = g.new_edge_property("string")
 for edge in g.edges():
-    labels[edge] = str(res[edge])+"/"+str(cap[edge])
+    labels[edge] = str(res[edge]) + "/" + str(cap[edge])
 
 gt.graph_draw(g, edge_pen_width=gt.prop_to_size(res, mi=1, ma=5, power=1),
-                  output="max-flow-library-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
+              output="max-flow-library-solution.pdf", vertex_text=g.vertex_index, edge_text=labels)
