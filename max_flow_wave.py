@@ -35,7 +35,7 @@ class GoldbergWave:
             #print(self.actives)
             active = self.actives.pop()
             while active:
-                #print("Active vertex "+str(active)+" excess "+str(self.excess[active]))
+                print("Active vertex "+str(active)+" excess "+str(self.excess[active]))
                 if not self.push(active):
                     self.relabel(active)
                 if len(self.actives) > 0:
@@ -46,13 +46,13 @@ class GoldbergWave:
         return self.excess[sink]
 
     def __print_residuals(self):
-        labels = self.graph.new_vertex_property("string")
+        '''labels = self.graph.new_vertex_property("string")
         for vertex in self.graph.vertices():
             labels[vertex] = str(self.graph.vertex_index[vertex]) + "(" + str(self.height[vertex]) + "," + str(
-                self.excess[vertex]) + ")"
+                self.excess[vertex]) + ")"'''
 
         gt.graph_draw(self.graph, edge_pen_width=gt.prop_to_size(self.res, mi=1, ma=5, power=1),
-                      output="cf/cf_residuals" + str(self.i) + ".pdf", vertex_text=labels, edge_text=self.res)
+                      output="cf/cf_residuals" + str(self.i) + ".pdf", vertex_text=self.graph.vertex_index, edge_text=self.res)
         print("Print graph "+str(self.i))
         self.i += 1
 
@@ -75,9 +75,11 @@ class GoldbergWave:
         return success
 
     def relabel(self, vertex):
-        self.height[vertex] = self.get_min_distance(vertex) + 1
-        if vertex != self.source and vertex != self.sink and self.excess[vertex] > 0:
-            self.actives.insert(0, vertex)
+        min_dist = self.get_min_distance(vertex)
+        if min_dist is not False:
+            self.height[vertex] = min_dist + 1
+            if vertex != self.source and vertex != self.sink and self.excess[vertex] > 0:
+                self.actives.insert(0, vertex)
         #print("Relabeling vertex " + str(vertex) + " to distance " + str(self.height[vertex]))
         #self.__print_residuals()
 
@@ -87,6 +89,8 @@ class GoldbergWave:
             #print("Out edges "+str(edge))
             if self.height[edge.target()] < min_h:
                 min_h = self.height[edge.target()]
+        if min_h == float('inf'):
+            return False
         return min_h
 
     def send_flow(self, source, target, value):
