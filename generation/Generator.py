@@ -9,9 +9,8 @@ class Generator:
         self.n = n
         self.seed_number = seed_number
         self.directed = directed
-        if seed_number:
-            gt.seed_rng(self.seed_number)
-            seed(self.seed_number)
+        gt.seed_rng(self.seed_number)
+        seed(self.seed_number)
 
     @staticmethod
     def validate(n, seed_number, directed):
@@ -53,7 +52,7 @@ class Generator:
         # If there are more than one candidate source
         # Pick a random one and attach to the other candidates
         elif len(sources) > 1:
-            source = random.choice(sources)
+            source = sources[randint(len(sources)-1)]
             sources.remove(source)
             self.__connect_source(graph, source, sources)
         else:
@@ -87,7 +86,7 @@ class Generator:
         # If there are more than one candidate sink
         # Pick a random one and attach to the other candidates
         elif len(sinks) > 1:
-            sink = random.choice(sinks)
+            sink = sinks[randint(len(sinks)-1)]
             sinks.remove(sink)
             self.__connect_source(graph, sink, sinks)
         else:

@@ -17,15 +17,12 @@ class Triangulation(Generator):
             raise ValueError("Invalid triangulation type.")
 
     def generate(self):
-
         points = random((self.n, 2))
         points[0] = [0, 0]
         points[1] = [1, 1]
         g, pos = gt.triangulation(points, type=self.type)
         g.set_directed(True)
         g = super().create_reverse_edges(g)
-
-
 
         # The capacity will be defined as the inverse euclidean distance
         capacity = g.new_edge_property("int")

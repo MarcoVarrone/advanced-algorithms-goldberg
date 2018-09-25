@@ -19,6 +19,7 @@ class Goldberg:
 
         self.graph.vp.height = self.height
         self.graph.vp.excess = self.excess
+        self.graph.ep.residual = self.res
         self.actives = set()
 
         self.i = 0
