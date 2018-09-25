@@ -9,8 +9,9 @@ class Generator:
         self.n = n
         self.seed_number = seed_number
         self.directed = directed
-        gt.seed_rng(self.seed_number)
-        seed(self.seed_number)
+        if seed_number:
+            gt.seed_rng(self.seed_number)
+            seed(self.seed_number)
 
     @staticmethod
     def validate(n, seed_number, directed):
@@ -86,7 +87,7 @@ class Generator:
         elif len(sinks) > 1:
             sink = sinks[randint(len(sinks)-1)]
             sinks.remove(sink)
-            self.__connect_source(graph, sink, sinks)
+            self.__connect_sink(graph, sink, sinks)
         else:
             sink = sinks[0]
         return sink
