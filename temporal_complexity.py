@@ -15,47 +15,49 @@ from generation.Triangulation import Triangulation
 
 file = open("temporal_complexity_data", "w")
 
-for nodes in [150, 250, 350, 450, 550]:
+for nodes in [150, 100 ,250, 300 ,350, 400 ,450, 500,550]:
+    for i in range(0, 10):
+        #Goldberg version - using as graph generator Triangulation
+        seed_number = randint(1, 1000)
+        generator = Triangulation(nodes, type="delaunay", directed=True, seed_number=seed_number)
+        g, source, target = generator.generate()
 
-    #Goldberg version - using as graph generator Triangulation
-    seed_number = randint(1, 1000)
-    generator = Triangulation(nodes, type="delaunay", directed=True, seed_number=seed_number)
-    g, source, target = generator.generate()
+        title = '- Parte grafo versione Goldberg con ' + str(nodes) + ' nodi e ' + str(len(g.get_edges())) + ' archi - Triangulation.'
+        print(title)
+        file.write(title)
+        solver = Goldberg(graph=g)
 
-    title = '- Parte grafo versione Goldberg con ' + str(nodes) + ' nodi e ' + str(len(g.get_edges())) + ' archi - Triangulation.'
-    print(title)
-    file.write(title)
-    solver = Goldberg(graph=g)
+        pr = cProfile.Profile()
+        pr.enable()
+        solution = solver.get_max_flow(source, target)
+        pr.disable()
+        s = StringIO()
+        sortby = 'cumulative'
+        ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+        ps.print_stats()
 
-    pr = cProfile.Profile()
-    pr.enable()
-    solution = solver.get_max_flow(source, target)
-    pr.disable()
-    s = StringIO()
-    sortby = 'cumulative'
-    ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
-    ps.print_stats()
+        file.write(s.getvalue())
 
-    file.write(s.getvalue())
-
-    # Goldberg version - using as graph generator ScaleFree
-    seed_number = randint(1, 1000)
-    generator = ScaleFree(nodes, directed=True, seed_number=seed_number)
-    g, source, target = generator.generate()
-
-    title = '- Parte grafo versione Goldberg con ' + str(nodes) + ' nodi e ' + str(len(g.get_edges())) + ' archi - ScaleFree.'
-    print(title)
-    file.write(title)
-    solver = Goldberg(graph=g)
-
-    pr = cProfile.Profile()
-    pr.enable()
-    solution = solver.get_max_flow(source, target)
-    pr.disable()
-    s = StringIO()
-    sortby = 'cumulative'
-    ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
-    ps.print_stats()
-    file.write(s.getvalue())
+        '''
+        # Goldberg version - using as graph generator ScaleFree
+        seed_number = randint(1, 1000)
+        generator = ScaleFree(nodes, directed=True, seed_number=seed_number)
+        g, source, target = generator.generate()
+    
+        title = '- Parte grafo versione Goldberg con ' + str(nodes) + ' nodi e ' + str(len(g.get_edges())) + ' archi - ScaleFree.'
+        print(title)
+        file.write(title)
+        solver = Goldberg(graph=g)
+    
+        pr = cProfile.Profile()
+        pr.enable()
+        solution = solver.get_max_flow(source, target)
+        pr.disable()
+        s = StringIO()
+        sortby = 'cumulative'
+        ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+        ps.print_stats()
+        file.write(s.getvalue())
+        '''
 file.close()
 
