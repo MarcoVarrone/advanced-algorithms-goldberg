@@ -23,13 +23,11 @@ class Generator:
 
     def create_reverse_edges(self, graph):
         edges = list(graph.edges())
-        temp_edges = list()
         # reciprocate edges
         if not self.directed:
             for e in edges:
                 if not graph.edge(e.target(), e.source()):
                     new_edge = graph.add_edge(e.target(), e.source())
-                    temp_edges.append(new_edge)
         return graph
 
     def get_source(self, graph):
