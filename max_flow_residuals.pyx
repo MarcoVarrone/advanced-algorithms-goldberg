@@ -72,15 +72,21 @@ cdef class Goldberg:
         return success
 
     cdef relabel(self, vertex):
-        self.height[vertex] = self.get_min_distance(vertex) + 1
+        min_dist = self.get_min_distance(vertex)
+        if min_dist is not False:
+            self.height[vertex] = self.get_min_distance(vertex) + 1
+        else:
+            self.actives.discard(vertex)
         #print("Relabeling vertex " + str(vertex) + " to distance " + str(self.height[vertex]))
         #self.__print_residuals()
 
-    cdef int get_min_distance(self, vertex):
+    cdef get_min_distance(self, vertex):
         min_h = float('inf')
         for edge in vertex.out_edges():
             if self.height[edge.target()] < min_h:
                 min_h = self.height[edge.target()]
+        if min_h == float('inf'):
+            return False
         return min_h
 
     cdef send_flow(self, source, target, int value):
