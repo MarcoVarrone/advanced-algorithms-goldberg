@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-DIFFERENT_NODES = 4
-SAMPLES = 10
+DIFFERENT_NODES = 5
+SAMPLES = 15
 
 #plotting Goldberg implementation
 file = open("temporal_complexity_data_goldberg", "r")

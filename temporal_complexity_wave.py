@@ -22,7 +22,7 @@ for nodes in [100, 200 ,300, 400, 500]:
         generator = Random(nodes, nodes*4, directed=True, seed_number=seed_number)
         g, source, target = generator.generate()
 
-        title = '- Parte grafo versione Goldberg con ' + str(nodes) + ' nodi e ' + str(len(g.get_edges())) + ' archi - Random.'
+        title = '- Parte grafo versione Wave con ' + str(nodes) + ' nodi e ' + str(len(g.get_edges())) + ' archi - Random.'
         print(title)
         file.write(title)
         solver = GoldbergWave(graph=g)
