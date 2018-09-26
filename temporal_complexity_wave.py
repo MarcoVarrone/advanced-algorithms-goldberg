@@ -25,7 +25,7 @@ for nodes in [100, 200 ,300, 400, 500]:
         title = '- Parte grafo versione Goldberg con ' + str(nodes) + ' nodi e ' + str(len(g.get_edges())) + ' archi - Random.'
         print(title)
         file.write(title)
-        solver = Goldberg(graph=g)
+        solver = GoldbergWave(graph=g)
 
         pr = cProfile.Profile()
         pr.enable()

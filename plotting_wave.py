@@ -41,7 +41,7 @@ print(edges)
 print(seconds)
 
 for i in range(0, DIFFERENT_NODES):
-    result += [float(seconds[i]) / float(nodes[i]) ** 2 * float(edges[i])]
+    result += [float(seconds[i]) / float(nodes[i]) ** 3]
 
 f = plt.figure()
 plt.plot(seconds, result)
