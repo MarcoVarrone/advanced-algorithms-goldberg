@@ -2,6 +2,7 @@ import graph_tool.all as gt
 import math
 from time import sleep
 from memory_profiler import profile
+import numpy as np
 
 
 cdef class Goldberg:
@@ -81,14 +82,10 @@ cdef class Goldberg:
         #self.__print_residuals()
 
     cdef get_min_distance(self, vertex):
-        min_h = float('inf')
-        for edge in vertex.out_edges():
-            target = edge.target()
-            if self.height[target] < min_h:
-                min_h = self.height[target]
-        if min_h == float('inf'):
+        out_edges = self.graph.get_out_edges(vertex)
+        if out_edges.size == 0:
             return False
-        return min_h
+        return np.amin(self.height.a[out_edges[:,1]])
 
     cdef send_flow(self, source, target, int value):
         edge = self.graph.edge(source, target)
