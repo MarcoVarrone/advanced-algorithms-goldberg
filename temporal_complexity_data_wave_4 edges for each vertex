@@ -1,0 +1,1258 @@
+- Parte grafo versione Goldberg con 100 nodi e 768 archi - Random.         1975199 function calls in 8.275 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.415    1.415    8.275    8.275 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   479035    4.528    0.000    4.821    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    21562    0.353    0.000    0.917    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+    49798    0.640    0.000    0.640    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    55662    0.568    0.000    0.603    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+   534697    0.240    0.000    0.327    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   265728    0.297    0.000    0.297    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+     3337    0.075    0.000    0.155    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   534697    0.087    0.000    0.087    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     3035    0.041    0.000    0.041    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    16864    0.026    0.000    0.026    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    10781    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 742 archi - Random.         53303 function calls in 0.222 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.036    0.036    0.222    0.222 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    11912    0.110    0.000    0.117    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+      608    0.009    0.000    0.024    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     2425    0.023    0.000    0.024    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1720    0.021    0.000    0.021    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      252    0.005    0.000    0.011    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    14337    0.006    0.000    0.009    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     6890    0.008    0.000    0.008    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    14337    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+       87    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      428    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      304    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 758 archi - Random.         2129595 function calls in 8.681 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.476    1.476    8.681    8.681 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   476375    4.540    0.000    4.842    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    22900    0.362    0.000    0.966    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+    54644    0.707    0.000    0.707    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    59448    0.618    0.000    0.656    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+   407573    0.457    0.000    0.457    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   535823    0.251    0.000    0.339    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     4422    0.093    0.000    0.200    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   535823    0.088    0.000    0.088    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     4200    0.058    0.000    0.058    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    16934    0.027    0.000    0.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    11450    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 770 archi - Random.         1916677 function calls in 8.014 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.364    1.364    8.014    8.014 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   477416    4.452    0.000    4.752    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    21176    0.324    0.000    0.867    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+    48300    0.610    0.000    0.610    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    54553    0.550    0.000    0.583    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+   531969    0.246    0.000    0.333    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   218120    0.253    0.000    0.253    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+     2974    0.062    0.000    0.132    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   531969    0.087    0.000    0.087    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     2697    0.036    0.000    0.036    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    16912    0.027    0.000    0.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    10588    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 756 archi - Random.         35709 function calls in 0.142 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.022    0.022    0.142    0.142 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+     8288    0.070    0.000    0.075    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     1896    0.017    0.000    0.018    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+      402    0.006    0.000    0.015    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     1164    0.013    0.000    0.013    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      180    0.003    0.000    0.007    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    10184    0.004    0.000    0.006    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     2855    0.003    0.000    0.003    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    10184    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+       42    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      310    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      201    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 750 archi - Random.         43936 function calls in 0.180 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.028    0.028    0.180    0.180 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+     9908    0.089    0.000    0.095    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     2170    0.021    0.000    0.022    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+      512    0.007    0.000    0.020    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     1458    0.017    0.000    0.017    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      217    0.004    0.000    0.008    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    12078    0.005    0.000    0.007    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     4825    0.005    0.000    0.005    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    12078    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+       75    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      356    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      256    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 754 archi - Random.         45610 function calls in 0.195 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.032    0.032    0.195    0.195 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    10226    0.096    0.000    0.102    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     2195    0.022    0.000    0.023    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+      514    0.008    0.000    0.021    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     1474    0.018    0.000    0.018    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      223    0.004    0.000    0.010    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    12421    0.006    0.000    0.008    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     5436    0.006    0.000    0.006    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    12421    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+       62    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      378    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      257    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 750 archi - Random.         1728237 function calls in 7.356 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.263    1.263    7.356    7.356 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   470340    4.288    0.000    4.562    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    19726    0.299    0.000    0.791    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+    43162    0.532    0.000    0.532    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    50505    0.498    0.000    0.528    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+   520845    0.223    0.000    0.304    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    72711    0.086    0.000    0.086    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   520845    0.081    0.000    0.081    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1855    0.038    0.000    0.081    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    16894    0.025    0.000    0.025    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+     1488    0.020    0.000    0.020    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+     9863    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 758 archi - Random.         1890261 function calls in 7.760 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.317    1.317    7.760    7.760 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   478629    4.354    0.000    4.643    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    21098    0.313    0.000    0.836    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+    47914    0.584    0.000    0.584    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    54407    0.542    0.000    0.574    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+   533036    0.232    0.000    0.322    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   188943    0.210    0.000    0.210    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+     2859    0.055    0.000    0.121    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   533036    0.090    0.000    0.090    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     2601    0.033    0.000    0.033    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    17186    0.026    0.000    0.026    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    10549    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 756 archi - Random.         66893 function calls in 0.280 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.046    0.046    0.280    0.280 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    15034    0.138    0.000    0.147    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+      796    0.013    0.000    0.033    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     2920    0.027    0.000    0.029    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     2202    0.027    0.000    0.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      305    0.006    0.000    0.013    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    17954    0.008    0.000    0.011    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     8676    0.010    0.000    0.010    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    17954    0.003    0.000    0.003    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+      119    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      532    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      398    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 768 archi - Random.         2088243 function calls in 8.257 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.382    1.382    8.257    8.257 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   472809    4.360    0.000    4.652    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    22708    0.341    0.000    0.914    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+    54086    0.672    0.000    0.672    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    58939    0.592    0.000    0.628    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+   379542    0.414    0.000    0.414    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   531748    0.236    0.000    0.328    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     4335    0.086    0.000    0.188    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   531748    0.092    0.000    0.092    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     4133    0.053    0.000    0.053    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    16838    0.026    0.000    0.026    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    11354    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 762 archi - Random.         49121 function calls in 0.206 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.033    0.033    0.206    0.206 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    11383    0.104    0.000    0.110    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     2324    0.023    0.000    0.024    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+      556    0.008    0.000    0.021    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     1586    0.019    0.000    0.019    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      237    0.004    0.000    0.010    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    13707    0.006    0.000    0.008    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     4854    0.005    0.000    0.005    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    13707    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+       62    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      424    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      278    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 756 archi - Random.         1991829 function calls in 8.109 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.390    1.390    8.109    8.109 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   472226    4.384    0.000    4.667    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    21764    0.331    0.000    0.884    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+    50584    0.634    0.000    0.634    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    56380    0.576    0.000    0.611    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+   298805    0.332    0.000    0.332    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   528606    0.233    0.000    0.318    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     3528    0.070    0.000    0.154    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   528606    0.085    0.000    0.085    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     3311    0.043    0.000    0.043    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    17134    0.027    0.000    0.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    10882    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 758 archi - Random.         2034123 function calls in 8.030 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.374    1.374    8.030    8.030 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   478128    4.317    0.000    4.600    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    22206    0.329    0.000    0.879    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+    51984    0.634    0.000    0.634    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    57523    0.572    0.000    0.607    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+   317428    0.341    0.000    0.341    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   535651    0.232    0.000    0.317    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     3786    0.072    0.000    0.159    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   535651    0.085    0.000    0.085    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     3528    0.045    0.000    0.045    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    17132    0.026    0.000    0.026    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    11103    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 100 nodi e 770 archi - Random.         30937 function calls in 0.109 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.017    0.017    0.109    0.109 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+     7142    0.055    0.000    0.058    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     1744    0.014    0.000    0.015    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+      342    0.004    0.000    0.011    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     1000    0.010    0.000    0.010    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      158    0.002    0.000    0.005    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+     8886    0.003    0.000    0.005    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     2309    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+     8886    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+       34    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      262    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      171    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1562 archi - Random.         7314955 function calls in 32.972 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.764    5.764   32.972   32.972 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1974923   19.174    0.000   20.422    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    79852    1.305    0.000    3.475    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   172906    2.319    0.000    2.319    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   202295    2.140    0.000    2.269    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  2177218    1.019    0.000    1.378    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   409313    0.508    0.000    0.508    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  2177218    0.359    0.000    0.359    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     6601    0.161    0.000    0.327    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    68854    0.118    0.000    0.118    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+     5846    0.088    0.000    0.088    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    39926    0.016    0.000    0.016    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1568 archi - Random.         7867886 function calls in 33.100 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.754    5.754   33.100   33.100 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1962328   18.592    0.000   19.817    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    82646    1.299    0.000    3.481    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   182902    2.389    0.000    2.389    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   210160    2.179    0.000    2.316    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  2172488    0.987    0.000    1.362    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   957576    1.088    0.000    1.088    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+     8805    0.196    0.000    0.419    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2172488    0.375    0.000    0.375    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     8179    0.115    0.000    0.115    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    68988    0.111    0.000    0.111    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    41323    0.015    0.000    0.015    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1570 archi - Random.         98429 function calls in 0.397 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.065    0.065    0.397    0.397 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    21690    0.199    0.000    0.212    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     4412    0.042    0.000    0.044    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1008    0.015    0.000    0.040    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     2868    0.035    0.000    0.035    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      426    0.008    0.000    0.018    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    26102    0.011    0.000    0.016    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    14419    0.016    0.000    0.016    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    26102    0.004    0.000    0.004    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+       97    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      798    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      504    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1566 archi - Random.         7634354 function calls in 30.982 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.344    5.344   30.982   30.982 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1960073   17.688    0.000   18.840    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    81834    1.218    0.000    3.254    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   179730    2.209    0.000    2.209    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   207330    2.041    0.000    2.166    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  2167403    0.931    0.000    1.277    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   746133    0.825    0.000    0.825    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+     8031    0.166    0.000    0.352    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2167403    0.346    0.000    0.346    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    68128    0.103    0.000    0.103    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+     7369    0.098    0.000    0.098    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    40917    0.014    0.000    0.014    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1542 archi - Random.         8978442 function calls in 34.167 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.966    5.966   34.167   34.167 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1897632   17.671    0.000   18.852    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    88374    1.359    0.000    3.634    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   204554    2.591    0.000    2.591    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   226273    2.307    0.000    2.451    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  2174053    2.359    0.000    2.359    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  2123905    0.960    0.000    1.325    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    13903    0.283    0.000    0.615    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2123905    0.365    0.000    0.365    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    13495    0.182    0.000    0.182    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    68158    0.108    0.000    0.108    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    44187    0.016    0.000    0.016    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1574 archi - Random.         8142435 function calls in 33.750 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.979    5.979   33.750   33.750 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1973125   18.547    0.000   19.763    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    84258    1.361    0.000    3.601    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   188674    2.471    0.000    2.471    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   214785    2.207    0.000    2.341    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  2187910    0.988    0.000    1.350    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+  1174838    1.347    0.000    1.347    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    10079    0.225    0.000    0.473    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2187910    0.363    0.000    0.363    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     9494    0.133    0.000    0.133    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    69230    0.114    0.000    0.114    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    42129    0.016    0.000    0.016    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1576 archi - Random.         8288062 function calls in 33.555 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.863    5.863   33.555   33.555 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1962500   18.383    0.000   19.586    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    85352    1.318    0.000    3.528    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   192144    2.452    0.000    2.452    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   217718    2.233    0.000    2.368    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  1336927    1.479    0.000    1.479    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  2180218    0.978    0.000    1.338    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    10720    0.227    0.000    0.484    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2180218    0.360    0.000    0.360    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    10152    0.138    0.000    0.138    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    69434    0.110    0.000    0.110    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    42676    0.015    0.000    0.015    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1572 archi - Random.         8299883 function calls in 32.886 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.709    5.709   32.886   32.886 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1947579   17.970    0.000   19.149    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    85284    1.295    0.000    3.463    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   192632    2.413    0.000    2.413    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   217683    2.187    0.000    2.321    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  1393019    1.516    0.000    1.516    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  2165262    0.953    0.000    1.314    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    11032    0.221    0.000    0.480    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2165262    0.361    0.000    0.361    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    10465    0.139    0.000    0.139    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    69020    0.107    0.000    0.107    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    42642    0.014    0.000    0.014    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1566 archi - Random.         84438 function calls in 0.364 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.060    0.060    0.364    0.364 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    19880    0.186    0.000    0.198    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     4113    0.041    0.000    0.043    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+      900    0.014    0.000    0.037    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     2534    0.031    0.000    0.031    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      367    0.007    0.000    0.016    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    23993    0.011    0.000    0.015    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+     7377    0.008    0.000    0.008    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    23993    0.004    0.000    0.004    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+      758    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+       70    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      450    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1554 archi - Random.         7843327 function calls in 32.626 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.688    5.688   32.626   32.626 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1949906   18.248    0.000   19.444    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    83126    1.292    0.000    3.450    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   184728    2.365    0.000    2.365    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   211497    2.172    0.000    2.305    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  2161403    0.978    0.000    1.329    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   962970    1.085    0.000    1.085    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+     9238    0.201    0.000    0.423    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2161403    0.351    0.000    0.351    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     8586    0.119    0.000    0.119    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    68904    0.111    0.000    0.111    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    41563    0.015    0.000    0.015    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1566 archi - Random.         8702544 function calls in 33.847 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.930    5.930   33.847   33.847 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1938011   17.983    0.000   19.185    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    86656    1.339    0.000    3.568    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   198408    2.516    0.000    2.516    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   221972    2.245    0.000    2.383    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  1800484    1.957    0.000    1.957    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  2159983    0.982    0.000    1.341    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    12548    0.254    0.000    0.556    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2159983    0.358    0.000    0.358    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    12078    0.160    0.000    0.160    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    69090    0.108    0.000    0.108    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    43328    0.015    0.000    0.015    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1558 archi - Random.         8337567 function calls in 33.935 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.979    5.979   33.935   33.935 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1934898   18.323    0.000   19.525    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    85524    1.355    0.000    3.616    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   193154    2.518    0.000    2.518    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   218045    2.254    0.000    2.391    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  1466936    1.653    0.000    1.653    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  2152943    0.984    0.000    1.339    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    11053    0.237    0.000    0.510    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2152943    0.354    0.000    0.354    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    10536    0.147    0.000    0.147    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    68770    0.114    0.000    0.114    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    42762    0.016    0.000    0.016    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1560 archi - Random.         8520228 function calls in 33.988 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    5.941    5.941   33.988   33.988 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  1919594   18.156    0.000   19.334    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+    86400    1.359    0.000    3.620    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   196550    2.537    0.000    2.537    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   220288    2.276    0.000    2.414    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  1683060    1.880    0.000    1.880    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  2139882    0.968    0.000    1.317    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    11875    0.246    0.000    0.537    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  2139882    0.349    0.000    0.349    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    11390    0.154    0.000    0.154    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    68104    0.108    0.000    0.108    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    43200    0.015    0.000    0.015    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1566 archi - Random.         95469 function calls in 0.421 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.070    0.070    0.421    0.421 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    20492    0.205    0.000    0.218    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     4315    0.045    0.000    0.048    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+      978    0.016    0.000    0.044    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     2780    0.038    0.000    0.038    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      412    0.009    0.000    0.020    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    15519    0.019    0.000    0.019    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    24807    0.012    0.000    0.016    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    24807    0.004    0.000    0.004    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+      107    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      760    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      489    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 200 nodi e 1550 archi - Random.         95268 function calls in 0.345 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.056    0.056    0.345    0.345 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    21119    0.172    0.000    0.183    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     4364    0.039    0.000    0.042    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1002    0.013    0.000    0.035    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     2822    0.030    0.000    0.030    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      409    0.007    0.000    0.015    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    25483    0.010    0.000    0.014    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    13194    0.012    0.000    0.012    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    25483    0.004    0.000    0.004    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+       88    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      800    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      501    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2360 archi - Random.         141480 function calls in 0.613 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.104    0.104    0.613    0.613 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    32261    0.309    0.000    0.329    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     6512    0.062    0.000    0.066    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1472    0.024    0.000    0.063    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     4150    0.054    0.000    0.054    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      603    0.012    0.000    0.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    38773    0.018    0.000    0.024    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    16886    0.020    0.000    0.020    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    38773    0.006    0.000    0.006    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1208    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      103    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      736    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2372 archi - Random.         142595 function calls in 0.606 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.101    0.101    0.606    0.606 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    30546    0.297    0.000    0.316    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     6396    0.064    0.000    0.068    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1428    0.023    0.000    0.061    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     4062    0.053    0.000    0.053    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    23710    0.027    0.000    0.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      603    0.012    0.000    0.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    36942    0.018    0.000    0.024    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    36942    0.006    0.000    0.006    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1128    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      121    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      714    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2348 archi - Random.         167356 function calls in 0.676 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.114    0.114    0.676    0.676 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    35605    0.332    0.000    0.354    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     7031    0.068    0.000    0.072    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1676    0.026    0.000    0.070    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     4684    0.059    0.000    0.059    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    30104    0.033    0.000    0.033    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      666    0.013    0.000    0.029    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    42636    0.019    0.000    0.026    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    42636    0.007    0.000    0.007    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1328    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      149    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      838    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2376 archi - Random.         130101 function calls in 0.484 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.080    0.080    0.484    0.484 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    27953    0.236    0.000    0.251    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     6005    0.054    0.000    0.058    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1280    0.018    0.000    0.049    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     3662    0.042    0.000    0.042    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      551    0.010    0.000    0.022    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    20940    0.021    0.000    0.021    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    33958    0.014    0.000    0.019    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    33958    0.005    0.000    0.005    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1034    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      117    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      640    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2366 archi - Random.         17031848 function calls in 74.235 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   13.036   13.036   74.235   74.235 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  4490650   42.676    0.000   45.538    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   182026    2.929    0.000    7.767    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   393642    5.172    0.000    5.172    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   459821    4.785    0.000    5.083    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  4950471    2.307    0.000    3.159    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+  1328003    1.617    0.000    1.617    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  4950471    0.853    0.000    0.853    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    14795    0.348    0.000    0.715    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   157214    0.279    0.000    0.279    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    13739    0.200    0.000    0.200    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    91013    0.033    0.000    0.033    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2364 archi - Random.         19422900 function calls in 74.682 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   13.161   13.161   74.682   74.682 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  4383242   40.235    0.000   42.832    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   190490    2.916    0.000    7.747    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   425662    5.322    0.000    5.322    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   483372    4.850    0.000    5.142    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  3912408    4.285    0.000    4.285    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  4866614    2.120    0.000    2.889    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    22341    0.461    0.000    0.984    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  4866614    0.768    0.000    0.768    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    21537    0.288    0.000    0.288    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   155372    0.243    0.000    0.243    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    95245    0.033    0.000    0.033    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2364 archi - Random.         154847 function calls in 0.625 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.104    0.104    0.625    0.625 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    33072    0.310    0.000    0.330    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     6667    0.062    0.000    0.066    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1528    0.024    0.000    0.063    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     4320    0.054    0.000    0.054    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    27016    0.031    0.000    0.031    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      632    0.012    0.000    0.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    39739    0.018    0.000    0.025    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    39739    0.006    0.000    0.006    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1228    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      139    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      764    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2356 archi - Random.         120191 function calls in 0.501 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.083    0.083    0.501    0.501 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    27213    0.253    0.000    0.270    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     5833    0.053    0.000    0.057    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1224    0.019    0.000    0.050    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     3474    0.044    0.000    0.044    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      513    0.010    0.000    0.022    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    33046    0.015    0.000    0.020    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    14103    0.016    0.000    0.016    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    33046    0.005    0.000    0.005    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1030    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+       94    0.001    0.000    0.001    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      612    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2360 archi - Random.         16620407 function calls in 71.482 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   12.635   12.635   71.482   71.482 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  4491862   41.464    0.000   44.150    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   179330    2.890    0.000    7.606    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   386554    5.027    0.000    5.027    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   452582    4.557    0.000    4.831    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  4944444    2.175    0.000    2.960    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   949523    1.164    0.000    1.164    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  4944444    0.785    0.000    0.785    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    13947    0.318    0.000    0.661    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   155228    0.253    0.000    0.253    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    12825    0.181    0.000    0.181    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    89665    0.032    0.000    0.032    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2346 archi - Random.         18604613 function calls in 74.946 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   13.219   13.219   74.946   74.946 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  4386576   41.088    0.000   43.760    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   188048    2.946    0.000    7.826    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   417050    5.337    0.000    5.337    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   476305    4.870    0.000    5.164    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  3121996    3.524    0.000    3.524    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  4862881    2.178    0.000    2.966    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    20477    0.441    0.000    0.931    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  4862881    0.788    0.000    0.788    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    19602    0.270    0.000    0.270    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   154770    0.252    0.000    0.252    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    94024    0.033    0.000    0.033    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2370 archi - Random.         20816768 function calls in 77.822 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   13.756   13.756   77.822   77.822 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  4376981   40.573    0.000   43.222    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   194692    3.006    0.000    8.018    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+  5259012    5.738    0.000    5.738    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   440852    5.590    0.000    5.590    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   495633    5.046    0.000    5.350    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  4872614    2.171    0.000    2.953    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    25734    0.537    0.000    1.148    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  4872614    0.782    0.000    0.782    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    24999    0.340    0.000    0.340    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   156288    0.250    0.000    0.250    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    97346    0.034    0.000    0.034    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2374 archi - Random.         164726 function calls in 0.665 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.113    0.113    0.665    0.665 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    36405    0.333    0.000    0.355    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     1652    0.026    0.000    0.069    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     7022    0.065    0.000    0.069    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     4622    0.058    0.000    0.058    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+      659    0.012    0.000    0.028    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    25181    0.028    0.000    0.028    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+    43427    0.019    0.000    0.025    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    43427    0.007    0.000    0.007    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1368    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      134    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      826    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2348 archi - Random.         16452915 function calls in 70.795 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   12.280   12.280   70.795   70.795 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  4481172   41.483    0.000   44.190    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   179886    2.786    0.000    7.410    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   387260    4.928    0.000    4.928    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   453632    4.561    0.000    4.837    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  4934804    2.192    0.000    2.982    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+   809514    0.998    0.000    0.998    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  4934804    0.790    0.000    0.790    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    13744    0.308    0.000    0.642    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   155534    0.261    0.000    0.261    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    12619    0.177    0.000    0.177    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    89943    0.031    0.000    0.031    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2356 archi - Random.         159083 function calls in 0.598 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.100    0.100    0.598    0.598 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    34754    0.299    0.000    0.318    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     6873    0.060    0.000    0.064    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1614    0.023    0.000    0.062    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     4500    0.052    0.000    0.052    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    25193    0.026    0.000    0.026    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      636    0.011    0.000    0.025    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    41627    0.017    0.000    0.023    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    41627    0.006    0.000    0.006    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1304    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      145    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      807    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 300 nodi e 2358 archi - Random.         18410982 function calls in 74.679 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   13.068   13.068   74.679   74.679 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  4440789   41.488    0.000   44.251    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   186902    2.895    0.000    7.711    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   412064    5.240    0.000    5.240    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   473536    4.830    0.000    5.125    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  2781754    3.141    0.000    3.141    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  4914325    2.229    0.000    3.058    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    19130    0.416    0.000    0.872    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  4914325    0.829    0.000    0.829    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+   156486    0.259    0.000    0.259    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    18217    0.252    0.000    0.252    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+    93451    0.032    0.000    0.032    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3172 archi - Random.         36181164 function calls in 137.937 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   24.633   24.633  137.937  137.937 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7809424   73.013    0.000   77.809    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   337302    5.280    0.000   14.009    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+  8581733    9.570    0.000    9.570    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   749702    9.568    0.000    9.568    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   854425    8.726    0.000    9.257    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  8663849    3.899    0.000    5.327    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    37549    0.808    0.000    1.705    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  8663849    1.429    0.000    1.429    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    36479    0.500    0.000    0.500    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   278198    0.453    0.000    0.453    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+   168651    0.058    0.000    0.058    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3152 archi - Random.         210294 function calls in 0.855 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.144    0.144    0.855    0.855 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    45193    0.422    0.000    0.449    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     8994    0.085    0.000    0.090    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     2082    0.033    0.000    0.087    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     5830    0.074    0.000    0.074    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    36088    0.042    0.000    0.042    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      833    0.016    0.000    0.036    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    54187    0.024    0.000    0.033    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    54187    0.009    0.000    0.009    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1688    0.003    0.000    0.003    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      168    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+     1041    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3154 archi - Random.         37380439 function calls in 139.746 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   25.273   25.273  139.746  139.746 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7775880   72.212    0.000   77.017    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   341166    5.420    0.000   14.314    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+  9826899   10.925    0.000   10.925    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   764184    9.820    0.000    9.820    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   864392    8.785    0.000    9.329    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  8640272    3.928    0.000    5.349    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    40926    0.884    0.000    1.869    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  8640272    1.421    0.000    1.421    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    39904    0.547    0.000    0.547    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   275958    0.471    0.000    0.471    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+   170583    0.059    0.000    0.059    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3152 archi - Random.         204908 function calls in 0.821 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.139    0.139    0.821    0.821 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    44017    0.404    0.000    0.430    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     8748    0.084    0.000    0.089    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     1978    0.031    0.000    0.082    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     5576    0.070    0.000    0.070    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    35451    0.040    0.000    0.040    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      810    0.015    0.000    0.034    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    52765    0.023    0.000    0.032    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    52765    0.008    0.000    0.008    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1658    0.003    0.000    0.003    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      148    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+      989    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3162 archi - Random.         213130 function calls in 0.833 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.141    0.141    0.833    0.833 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    44552    0.407    0.000    0.433    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     8941    0.082    0.000    0.087    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     2050    0.032    0.000    0.084    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     5782    0.073    0.000    0.073    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    41110    0.045    0.000    0.045    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      841    0.016    0.000    0.037    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    53493    0.023    0.000    0.032    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    53493    0.009    0.000    0.009    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1674    0.003    0.000    0.003    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      166    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+     1025    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3158 archi - Random.         30381982 function calls in 129.510 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   22.728   22.728  129.510  129.510 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7995669   74.546    0.000   79.513    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   322494    5.091    0.000   13.479    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   697596    8.970    0.000    8.970    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   813190    8.272    0.000    8.781    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  8808859    4.015    0.000    5.477    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+  2445401    2.937    0.000    2.937    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  8808859    1.461    0.000    1.461    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    26304    0.607    0.000    1.245    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   277478    0.475    0.000    0.475    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    24882    0.352    0.000    0.352    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   161247    0.056    0.000    0.056    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3158 archi - Random.         38046143 function calls in 139.634 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   25.016   25.016  139.634  139.634 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7730898   71.659    0.000   76.488    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   341372    5.337    0.000   14.129    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+ 10618156   11.735    0.000   11.735    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   767458    9.739    0.000    9.739    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   865705    8.813    0.000    9.367    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  8596603    3.943    0.000    5.383    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    42357    0.885    0.000    1.894    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  8596603    1.440    0.000    1.440    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    41412    0.556    0.000    0.556    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   274890    0.450    0.000    0.450    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+   170686    0.061    0.000    0.061    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3168 archi - Random.         32165689 function calls in 132.140 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   23.208   23.208  132.140  132.140 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7963684   74.297    0.000   79.254    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   327718    5.148    0.000   13.624    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   713848    9.122    0.000    9.122    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   827147    8.426    0.000    8.947    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  8790831    4.010    0.000    5.479    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+  4251993    4.892    0.000    4.892    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  8790831    1.469    0.000    1.469    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    29206    0.649    0.000    1.351    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+   278672    0.474    0.000    0.474    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    27897    0.388    0.000    0.388    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   163859    0.057    0.000    0.057    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3166 archi - Random.         35493071 function calls in 136.549 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   24.373   24.373  136.549  136.549 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7776158   72.651    0.000   77.400    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   335166    5.249    0.000   13.933    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   744924    9.520    0.000    9.520    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   848144    8.679    0.000    9.211    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  8024256    8.981    0.000    8.981    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  8624302    3.867    0.000    5.282    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    37296    0.799    0.000    1.693    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  8624302    1.414    0.000    1.414    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    36239    0.496    0.000    0.496    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   274698    0.462    0.000    0.462    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+   167583    0.057    0.000    0.057    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3166 archi - Random.         204392 function calls in 0.821 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.136    0.136    0.821    0.821 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    44106    0.407    0.000    0.433    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     8855    0.085    0.000    0.091    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     2018    0.031    0.000    0.081    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     5702    0.070    0.000    0.070    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    34147    0.039    0.000    0.039    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      833    0.016    0.000    0.035    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    52961    0.024    0.000    0.032    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    52961    0.008    0.000    0.008    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1638    0.003    0.000    0.003    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      159    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+     1009    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3178 archi - Random.         34870950 function calls in 136.003 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   24.323   24.323  136.003  136.003 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7814380   72.787    0.000   77.576    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   333580    5.344    0.000   14.078    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   739482    9.567    0.000    9.567    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   843882    8.608    0.000    9.138    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  7310308    8.255    0.000    8.255    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  8658262    3.887    0.000    5.318    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    36161    0.789    0.000    1.680    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  8658262    1.431    0.000    1.431    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    35076    0.484    0.000    0.484    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   274764    0.469    0.000    0.469    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+   166790    0.059    0.000    0.059    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3156 archi - Random.         213455 function calls in 0.837 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.140    0.140    0.837    0.837 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    46572    0.421    0.000    0.449    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     9077    0.082    0.000    0.087    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     2098    0.031    0.000    0.083    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     5886    0.071    0.000    0.071    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    34697    0.039    0.000    0.039    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      845    0.015    0.000    0.035    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    55649    0.024    0.000    0.033    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    55649    0.009    0.000    0.009    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1758    0.003    0.000    0.003    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      172    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+     1049    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3146 archi - Random.         36736240 function calls in 139.487 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   24.980   24.980  139.487  139.487 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7730712   72.665    0.000   77.509    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   339032    5.366    0.000   14.248    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+  9346562   10.541    0.000   10.541    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+   757586    9.783    0.000    9.783    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   858969    8.842    0.000    9.388    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  8589681    3.941    0.000    5.391    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    39761    0.860    0.000    1.820    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  8589681    1.450    0.000    1.450    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+    38743    0.532    0.000    0.532    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   275994    0.468    0.000    0.468    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+   169516    0.060    0.000    0.060    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3164 archi - Random.         235015 function calls in 0.913 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.153    0.153    0.913    0.913 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    50294    0.454    0.000    0.484    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+     9589    0.090    0.000    0.096    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+     2284    0.034    0.000    0.090    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+     6364    0.076    0.000    0.076    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+    42571    0.046    0.000    0.046    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+      898    0.016    0.000    0.037    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+    59883    0.026    0.000    0.036    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    59883    0.010    0.000    0.010    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+     1916    0.003    0.000    0.003    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+      188    0.002    0.000    0.002    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+     1142    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Goldberg con 400 nodi e 3154 archi - Random.         32430991 function calls in 130.724 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   23.166   23.166  130.724  130.724 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  7857790   72.633    0.000   77.326    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:441(__getitem__)
+   328466    5.144    0.000   13.584    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1777(edge)
+   719598    9.130    0.000    9.130    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1760(vertex)
+   829593    8.368    0.000    8.875    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:459(__setitem__)
+  4818776    5.496    0.000    5.496    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3241(_v_eq)
+  8687383    3.806    0.000    5.200    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:405(__key_trans)
+    31333    0.677    0.000    1.423    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2041(add_edge)
+  8687383    1.394    0.000    1.394    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:548(key_type)
+   276346    0.445    0.000    0.445    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:3247(_v_ne)
+    30087    0.410    0.000    0.410    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:2053(remove_edge)
+   164233    0.055    0.000    0.055    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3/dist-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}

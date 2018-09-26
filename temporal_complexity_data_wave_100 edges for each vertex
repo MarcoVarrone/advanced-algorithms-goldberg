@@ -1,0 +1,1260 @@
+- Parte grafo versione Wave con 100 nodi e 8560 archi - Random.         325957 function calls in 0.740 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.103    0.103    0.740    0.740 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    86352    0.434    0.000    0.472    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    11541    0.067    0.000    0.072    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+     1713    0.020    0.000    0.054    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    97893    0.031    0.000    0.044    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     4442    0.043    0.000    0.043    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+      508    0.007    0.000    0.017    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    23736    0.017    0.000    0.017    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    97893    0.013    0.000    0.013    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      358    0.004    0.000    0.004    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      376    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1142    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8584 archi - Random.         311361 function calls in 0.669 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.090    0.090    0.669    0.669 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    82736    0.399    0.000    0.433    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    11266    0.059    0.000    0.064    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+     1527    0.019    0.000    0.049    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    94002    0.027    0.000    0.039    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     3978    0.038    0.000    0.038    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+      462    0.007    0.000    0.016    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    21693    0.014    0.000    0.014    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    94002    0.012    0.000    0.012    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      308    0.003    0.000    0.003    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      366    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1018    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8594 archi - Random.         335371 function calls in 0.714 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.095    0.095    0.714    0.714 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    89369    0.426    0.000    0.463    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    11696    0.062    0.000    0.067    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+     1785    0.021    0.000    0.054    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   101065    0.029    0.000    0.042    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     4624    0.042    0.000    0.042    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+      527    0.007    0.000    0.016    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    23290    0.015    0.000    0.015    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   101065    0.013    0.000    0.013    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      369    0.003    0.000    0.003    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      388    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1190    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8576 archi - Random.         312873 function calls in 0.686 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.091    0.091    0.686    0.686 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    83191    0.405    0.000    0.440    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    11408    0.068    0.000    0.073    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+     1617    0.018    0.000    0.048    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    94599    0.029    0.000    0.040    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     4218    0.038    0.000    0.038    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+      492    0.007    0.000    0.016    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    20971    0.014    0.000    0.014    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    94599    0.012    0.000    0.012    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      331    0.003    0.000    0.003    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      366    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1078    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8512 archi - Random.         9562580 function calls in 19.986 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    3.014    3.014   19.986   19.986 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  2994844   13.965    0.000   15.171    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  3063580    0.871    0.000    1.237    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+    34791    0.397    0.000    1.038    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    77854    0.709    0.000    0.709    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    68736    0.398    0.000    0.429    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  3063580    0.365    0.000    0.365    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   209195    0.143    0.000    0.143    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+     4136    0.062    0.000    0.134    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+     3269    0.033    0.000    0.033    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    19398    0.024    0.000    0.024    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    23194    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8534 archi - Random.         9674567 function calls in 20.212 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    3.035    3.035   20.212   20.212 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  3013609   14.054    0.000   15.271    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  3084535    0.884    0.000    1.249    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+    36090    0.411    0.000    1.076    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    81314    0.741    0.000    0.741    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    70926    0.414    0.000    0.446    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  3084535    0.366    0.000    0.366    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   251801    0.173    0.000    0.173    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+     4567    0.068    0.000    0.148    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+     3719    0.038    0.000    0.038    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    19408    0.024    0.000    0.024    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    24060    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8536 archi - Random.         9818889 function calls in 20.225 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    2.983    2.983   20.225   20.225 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  3036055   14.029    0.000   15.235    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  3110325    0.873    0.000    1.240    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+    38094    0.424    0.000    1.113    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    86604    0.775    0.000    0.775    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    74270    0.421    0.000    0.454    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  3110325    0.367    0.000    0.367    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   308753    0.208    0.000    0.208    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+     5208    0.075    0.000    0.166    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+     4390    0.042    0.000    0.042    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    19466    0.023    0.000    0.023    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    25396    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8538 archi - Random.         308673 function calls in 0.638 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.082    0.082    0.638    0.638 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    81778    0.382    0.000    0.414    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    11294    0.058    0.000    0.062    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+     1572    0.018    0.000    0.046    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     4092    0.037    0.000    0.037    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    93072    0.026    0.000    0.037    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+      474    0.007    0.000    0.016    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    21579    0.014    0.000    0.014    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    93072    0.011    0.000    0.011    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      319    0.003    0.000    0.003    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      370    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1048    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8554 archi - Random.         9957932 function calls in 20.482 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    3.011    3.011   20.482   20.482 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  3042299   14.042    0.000   15.256    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  3121192    0.877    0.000    1.248    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+    40731    0.458    0.000    1.194    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    94094    0.840    0.000    0.840    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    78893    0.449    0.000    0.483    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  3121192    0.372    0.000    0.372    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   401027    0.265    0.000    0.265    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+     6316    0.089    0.000    0.198    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+     5603    0.053    0.000    0.053    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    19428    0.022    0.000    0.022    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    27154    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8622 archi - Random.         306550 function calls in 0.636 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.082    0.082    0.636    0.636 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    81079    0.382    0.000    0.415    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    11395    0.059    0.000    0.063    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+     1581    0.017    0.000    0.045    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    92474    0.027    0.000    0.038    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     4132    0.035    0.000    0.035    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+      485    0.006    0.000    0.014    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    21190    0.013    0.000    0.013    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    92474    0.011    0.000    0.011    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      325    0.003    0.000    0.003    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      358    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1054    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8524 archi - Random.         9760367 function calls in 20.165 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    2.988    2.988   20.165   20.165 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  3016939   13.983    0.000   15.173    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  3090855    0.864    0.000    1.223    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+    37824    0.425    0.000    1.109    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    86168    0.772    0.000    0.772    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    73916    0.422    0.000    0.454    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  3090855    0.359    0.000    0.359    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   309496    0.208    0.000    0.208    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+     5260    0.076    0.000    0.167    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+     4437    0.042    0.000    0.042    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    19398    0.023    0.000    0.023    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    25216    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8612 archi - Random.         9699522 function calls in 19.965 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    2.963    2.963   19.965   19.965 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  3031336   13.983    0.000   15.188    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  3101037    0.867    0.000    1.236    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+    35328    0.398    0.000    1.038    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    79222    0.711    0.000    0.711    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    69701    0.396    0.000    0.427    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  3101037    0.369    0.000    0.369    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   231183    0.157    0.000    0.157    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+     4283    0.062    0.000    0.137    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+     3438    0.033    0.000    0.033    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    19402    0.022    0.000    0.022    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    23552    0.004    0.000    0.004    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8592 archi - Random.         9510267 function calls in 22.010 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    3.497    3.497   22.010   22.010 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+  3000519   15.240    0.000   16.594    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+  3066315    0.977    0.000    1.385    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+    33012    0.426    0.000    1.119    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    73006    0.752    0.000    0.752    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    65796    0.467    0.000    0.498    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  3066315    0.408    0.000    0.408    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   157834    0.124    0.000    0.124    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+     3491    0.057    0.000    0.121    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    19392    0.029    0.000    0.029    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2576    0.028    0.000    0.028    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    22008    0.005    0.000    0.005    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8564 archi - Random.         290550 function calls in 0.693 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.098    0.098    0.693    0.693 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    77214    0.410    0.000    0.448    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    11007    0.064    0.000    0.069    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+     1380    0.017    0.000    0.046    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    88221    0.030    0.000    0.043    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     3606    0.036    0.000    0.036    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+      423    0.007    0.000    0.015    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    18927    0.014    0.000    0.014    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    88221    0.013    0.000    0.013    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      270    0.003    0.000    0.003    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      358    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+      920    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 100 nodi e 8608 archi - Random.         325595 function calls in 0.870 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.115    0.115    0.870    0.870 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+    87057    0.497    0.000    0.556    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    11500    0.068    0.000    0.074    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    98557    0.051    0.000    0.065    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     1647    0.024    0.000    0.062    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     4300    0.050    0.000    0.050    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    21647    0.037    0.000    0.037    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+      503    0.009    0.000    0.021    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    98557    0.014    0.000    0.014    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      342    0.004    0.000    0.004    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      384    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1098    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25184 archi - Random.         56178060 function calls in 125.599 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   19.697   19.697  125.599  125.599 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 17352603   87.571    0.000   95.332    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 17652263    5.626    0.000    7.912    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   159657    2.086    0.000    5.383    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   363844    3.718    0.000    3.718    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 17652263    2.286    0.000    2.286    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   299660    2.045    0.000    2.195    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  2470050    1.803    0.000    1.803    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    22265    0.384    0.000    0.827    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    20346    0.231    0.000    0.231    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    78668    0.131    0.000    0.131    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   106438    0.021    0.000    0.021    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25230 archi - Random.         55250052 function calls in 114.867 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   17.263   17.263  114.867  114.867 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 17283946   82.070    0.000   89.129    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 17563299    5.083    0.000    7.187    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   147552    1.743    0.000    4.544    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   331266    3.111    0.000    3.111    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 17563299    2.104    0.000    2.104    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   279353    1.662    0.000    1.790    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  1870268    1.268    0.000    1.268    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    18081    0.278    0.000    0.605    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    16007    0.164    0.000    0.164    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    78610    0.104    0.000    0.104    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    98368    0.017    0.000    0.017    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25022 archi - Random.         833020 function calls in 1.662 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.217    0.217    1.662    1.662 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   219881    1.029    0.000    1.118    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    30180    0.152    0.000    0.164    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   250061    0.071    0.000    0.101    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     2934    0.034    0.000    0.086    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     7634    0.067    0.000    0.067    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    68134    0.043    0.000    0.043    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   250061    0.030    0.000    0.030    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      883    0.012    0.000    0.027    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      569    0.005    0.000    0.005    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      724    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1956    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25172 archi - Random.         56135194 function calls in 112.520 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   16.520   16.520  112.520  112.520 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 17352061   80.099    0.000   86.934    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 17649877    4.918    0.000    6.967    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   158586    1.784    0.000    4.656    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   360914    3.232    0.000    3.232    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 17649877    2.049    0.000    2.049    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   297816    1.706    0.000    1.838    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  2439809    1.592    0.000    1.592    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    21871    0.314    0.000    0.691    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    20008    0.194    0.000    0.194    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    78648    0.095    0.000    0.095    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   105724    0.017    0.000    0.017    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25148 archi - Random.         851305 function calls in 1.713 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.223    0.223    1.713    1.713 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   224553    1.050    0.000    1.140    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    30607    0.159    0.000    0.172    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   255160    0.073    0.000    0.104    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     3111    0.036    0.000    0.094    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     8108    0.074    0.000    0.074    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    70226    0.046    0.000    0.046    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   255160    0.030    0.000    0.030    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      943    0.013    0.000    0.030    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      626    0.006    0.000    0.006    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      734    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2074    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25202 archi - Random.         55851398 function calls in 113.228 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   16.760   16.760  113.228  113.228 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 17341778   80.605    0.000   87.560    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 17633344    5.028    0.000    7.087    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   154818    1.784    0.000    4.641    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   350778    3.213    0.000    3.213    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 17633344    2.059    0.000    2.059    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   291566    1.705    0.000    1.838    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  2224662    1.465    0.000    1.465    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    20571    0.305    0.000    0.678    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    18586    0.185    0.000    0.185    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    78736    0.102    0.000    0.102    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   103212    0.018    0.000    0.018    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25040 archi - Random.         849806 function calls in 1.730 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.231    0.231    1.730    1.730 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   224063    1.063    0.000    1.156    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    30311    0.161    0.000    0.174    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   254374    0.075    0.000    0.106    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     2994    0.034    0.000    0.089    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     7794    0.070    0.000    0.070    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    71637    0.046    0.000    0.046    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   254374    0.031    0.000    0.031    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      903    0.012    0.000    0.028    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      607    0.006    0.000    0.006    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      750    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1996    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25044 archi - Random.         56657954 function calls in 114.699 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   17.096   17.096  114.699  114.699 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 17339109   80.649    0.000   87.612    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 17651882    5.013    0.000    7.103    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   167553    1.913    0.000    4.981    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   385128    3.490    0.000    3.490    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 17651882    2.090    0.000    2.090    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   312773    1.828    0.000    1.968    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  2911095    1.904    0.000    1.904    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    25011    0.365    0.000    0.805    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    23190    0.227    0.000    0.227    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    78626    0.105    0.000    0.105    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   111702    0.018    0.000    0.018    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25092 archi - Random.         835696 function calls in 1.689 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.222    0.222    1.689    1.689 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   220188    1.039    0.000    1.131    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    30141    0.159    0.000    0.171    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   250329    0.075    0.000    0.105    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     2859    0.032    0.000    0.085    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     7458    0.067    0.000    0.067    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    70311    0.046    0.000    0.046    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   250329    0.030    0.000    0.030    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      870    0.012    0.000    0.027    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      570    0.005    0.000    0.005    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      732    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1906    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25094 archi - Random.         57787883 function calls in 124.177 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   19.210   19.210  124.177  124.177 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 17454292   85.467    0.000   93.021    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 17786927    5.448    0.000    7.718    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   179340    2.220    0.000    5.792    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   416850    4.097    0.000    4.097    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  3576202    2.447    0.000    2.447    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+ 17786927    2.271    0.000    2.271    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   332635    2.098    0.000    2.262    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    29085    0.467    0.000    1.016    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    27392    0.290    0.000    0.290    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    78670    0.138    0.000    0.138    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   119560    0.024    0.000    0.024    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25260 archi - Random.         54567993 function calls in 119.945 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   19.171   19.171  119.945  119.945 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 17256838   84.887    0.000   92.465    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 17522210    5.415    0.000    7.710    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   139338    1.777    0.000    4.629    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   308704    3.118    0.000    3.118    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 17522210    2.295    0.000    2.295    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   265372    1.730    0.000    1.862    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  1353961    0.969    0.000    0.969    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    15014    0.265    0.000    0.553    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    12825    0.151    0.000    0.151    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    78626    0.145    0.000    0.145    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    92892    0.022    0.000    0.022    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25128 archi - Random.         809343 function calls in 1.674 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.220    0.220    1.674    1.674 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   213432    1.026    0.000    1.114    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    30136    0.162    0.000    0.175    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   243568    0.071    0.000    0.101    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     2853    0.034    0.000    0.088    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     7408    0.069    0.000    0.069    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    64355    0.043    0.000    0.043    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   243568    0.030    0.000    0.030    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      851    0.012    0.000    0.028    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      563    0.006    0.000    0.006    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      704    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1902    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25218 archi - Random.         824410 function calls in 2.220 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.334    0.334    2.220    2.220 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   218553    1.316    0.000    1.444    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    30249    0.183    0.000    0.197    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   248802    0.093    0.000    0.141    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     2844    0.047    0.000    0.126    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     7422    0.101    0.000    0.101    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    63673    0.068    0.000    0.068    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   248802    0.049    0.000    0.049    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      867    0.019    0.000    0.041    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      557    0.008    0.000    0.008    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      742    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     1896    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25108 archi - Random.         845956 function calls in 1.679 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.216    0.216    1.679    1.679 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   223244    1.036    0.000    1.124    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    30547    0.155    0.000    0.168    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   253791    0.071    0.000    0.100    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     3102    0.035    0.000    0.091    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     8068    0.072    0.000    0.072    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+    69056    0.045    0.000    0.045    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   253791    0.029    0.000    0.029    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+      932    0.013    0.000    0.029    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      614    0.006    0.000    0.006    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+      740    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2068    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 200 nodi e 25150 archi - Random.         55123344 function calls in 118.432 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   18.266   18.266  118.432  118.432 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 17221017   83.968    0.000   91.301    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 17501755    5.297    0.000    7.464    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   148467    1.803    0.000    4.717    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   333584    3.234    0.000    3.234    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 17501755    2.166    0.000    2.166    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   280738    1.747    0.000    1.877    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  1923832    1.338    0.000    1.338    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    18325    0.292    0.000    0.632    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    16278    0.172    0.000    0.172    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+    78612    0.130    0.000    0.130    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    98978    0.020    0.000    0.020    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43624 archi - Random.         1413378 function calls in 2.780 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.367    0.367    2.780    2.780 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   368474    1.729    0.000    1.876    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    50698    0.259    0.000    0.280    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   419172    0.119    0.000    0.168    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     3987    0.046    0.000    0.121    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    10362    0.095    0.000    0.095    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   135783    0.090    0.000    0.090    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   419172    0.049    0.000    0.049    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1194    0.017    0.000    0.037    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      749    0.007    0.000    0.007    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1126    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2658    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43814 archi - Random.         137523623 function calls in 301.185 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   47.471   47.471  301.185  301.185 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 44416888  218.945    0.000  238.352    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 44942604   13.886    0.000   19.662    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   279843    3.604    0.000    9.375    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   599664    6.106    0.000    6.106    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 44942604    5.775    0.000    5.775    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   525716    3.387    0.000    3.642    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  1416209    1.091    0.000    1.091    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    19989    0.367    0.000    0.747    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+   177576    0.318    0.000    0.318    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    15965    0.188    0.000    0.188    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   186562    0.045    0.000    0.045    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43684 archi - Random.         1460242 function calls in 3.211 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.476    0.476    3.211    3.211 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   383162    1.967    0.000    2.143    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    50982    0.264    0.000    0.285    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   434144    0.139    0.000    0.196    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     4107    0.057    0.000    0.150    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    10684    0.116    0.000    0.116    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   137111    0.097    0.000    0.097    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   434144    0.057    0.000    0.057    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1235    0.023    0.000    0.048    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      760    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1172    0.003    0.000    0.003    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2738    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43642 archi - Random.         1435103 function calls in 3.522 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.551    0.551    3.522    3.522 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   374552    2.090    0.000    2.283    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    50787    0.319    0.000    0.346    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   425339    0.157    0.000    0.219    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     4017    0.063    0.000    0.166    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    10452    0.129    0.000    0.129    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   138816    0.108    0.000    0.108    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   425339    0.063    0.000    0.063    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1209    0.026    0.000    0.054    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      753    0.011    0.000    0.011    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1158    0.004    0.000    0.004    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2678    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43698 archi - Random.         1367382 function calls in 3.356 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.525    0.525    3.356    3.356 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   358218    1.999    0.000    2.183    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    50257    0.316    0.000    0.342    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   408475    0.149    0.000    0.210    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     3657    0.057    0.000    0.148    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+     9554    0.116    0.000    0.116    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   123404    0.096    0.000    0.096    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   408475    0.061    0.000    0.061    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1120    0.024    0.000    0.048    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      657    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1124    0.004    0.000    0.004    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2438    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43712 archi - Random.         145924892 function calls in 303.936 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   46.987   46.987  303.936  303.936 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 44849405  214.614    0.000  233.373    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 45507597   13.538    0.000   19.078    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   358059    4.356    0.000   11.340    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   812570    7.829    0.000    7.829    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 45507597    5.541    0.000    5.541    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  7721704    5.312    0.000    5.312    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   658192    4.156    0.000    4.475    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    48226    0.776    0.000    1.670    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    45151    0.484    0.000    0.484    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   177682    0.296    0.000    0.296    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   238706    0.048    0.000    0.048    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43538 archi - Random.         136714024 function calls in 281.569 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   42.669   42.669  281.569  281.569 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 44143178  206.672    0.000  224.615    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 44668201   12.868    0.000   18.183    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   279708    3.340    0.000    8.681    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   599000    5.661    0.000    5.661    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 44668201    5.315    0.000    5.315    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   525023    3.173    0.000    3.413    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  1431181    1.049    0.000    1.049    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    19792    0.339    0.000    0.698    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+   177496    0.271    0.000    0.271    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    15769    0.173    0.000    0.173    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   186472    0.038    0.000    0.038    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43724 archi - Random.         1441805 function calls in 2.816 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.370    0.370    2.816    2.816 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   375909    1.748    0.000    1.896    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    51098    0.271    0.000    0.293    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   427007    0.121    0.000    0.171    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     4164    0.046    0.000    0.120    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    10828    0.094    0.000    0.094    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   139820    0.090    0.000    0.090    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   427007    0.050    0.000    0.050    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1250    0.016    0.000    0.037    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      801    0.007    0.000    0.007    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1142    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2776    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43602 archi - Random.         147646780 function calls in 300.780 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   45.381   45.381  300.780  300.780 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 44807940  211.842    0.000  230.224    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 45500952   13.238    0.000   18.702    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   378879    4.479    0.000   11.669    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   868584    8.140    0.000    8.140    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+  9358198    6.345    0.000    6.345    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+ 45500952    5.465    0.000    5.465    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   693012    4.182    0.000    4.502    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    55413    0.839    0.000    1.835    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    52613    0.539    0.000    0.539    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   177648    0.283    0.000    0.283    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   252586    0.046    0.000    0.046    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43480 archi - Random.         151112039 function calls in 295.446 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   43.120   43.120  295.446  295.446 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 44993436  207.101    0.000  224.724    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 45742648   12.724    0.000   17.955    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   411960    4.633    0.000   12.074    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   959220    8.562    0.000    8.562    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 11927735    7.841    0.000    7.841    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+ 45742648    5.230    0.000    5.230    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   749212    4.373    0.000    4.705    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    67650    0.958    0.000    2.123    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    65285    0.621    0.000    0.621    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   177602    0.236    0.000    0.236    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   274640    0.044    0.000    0.044    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43644 archi - Random.         142973711 function calls in 302.565 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   47.113   47.113  302.565  302.565 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 44515571  215.007    0.000  234.069    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 45136311   13.575    0.000   19.361    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   335967    4.160    0.000   10.845    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   752684    7.376    0.000    7.376    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 45136311    5.786    0.000    5.786    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   620740    3.914    0.000    4.213    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  5997009    4.172    0.000    4.172    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    40375    0.679    0.000    1.439    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    37234    0.407    0.000    0.407    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   177528    0.307    0.000    0.307    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   223978    0.070    0.000    0.070    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43580 archi - Random.         1413489 function calls in 2.690 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.347    0.347    2.690    2.690 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   368373    1.683    0.000    1.827    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    50664    0.254    0.000    0.274    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   419037    0.115    0.000    0.163    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     3987    0.043    0.000    0.112    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    10372    0.089    0.000    0.089    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   136282    0.086    0.000    0.086    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   419037    0.048    0.000    0.048    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1199    0.015    0.000    0.035    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      741    0.007    0.000    0.007    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1136    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2658    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43398 archi - Random.         1421123 function calls in 2.706 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.347    0.347    2.706    2.706 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   368704    1.688    0.000    1.831    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    50734    0.253    0.000    0.273    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   419438    0.115    0.000    0.163    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     4140    0.045    0.000    0.118    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+    10780    0.093    0.000    0.093    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   141965    0.091    0.000    0.091    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   419438    0.048    0.000    0.048    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1250    0.016    0.000    0.037    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      781    0.007    0.000    0.007    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1130    0.001    0.000    0.001    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     2760    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43750 archi - Random.         138226057 function calls in 279.038 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   41.450   41.450  279.038  279.038 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 44457846  205.530    0.000  223.208    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 44995215   12.677    0.000   17.915    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   286920    3.289    0.000    8.555    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   618412    5.619    0.000    5.619    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 44995215    5.238    0.000    5.238    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+   537369    3.100    0.000    3.337    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+  1925570    1.343    0.000    1.343    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    22286    0.342    0.000    0.728    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+   177544    0.228    0.000    0.228    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+    18397    0.188    0.000    0.188    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   191280    0.034    0.000    0.034    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 300 nodi e 43732 archi - Random.         144219392 function calls in 291.096 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   43.276   43.276  291.096  291.096 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 44636359  208.841    0.000  226.838    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 45270526   12.885    0.000   18.283    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   343827    3.994    0.000   10.349    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   774008    7.084    0.000    7.084    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 45270526    5.398    0.000    5.398    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  6799886    4.576    0.000    4.576    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+   634167    3.733    0.000    4.019    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    43177    0.639    0.000    1.406    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    40053    0.397    0.000    0.397    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   177642    0.235    0.000    0.235    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   229218    0.038    0.000    0.038    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62606 archi - Random.         270654277 function calls in 520.533 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   74.954   74.954  520.533  520.533 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 84932296  381.736    0.000  414.238    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 85965134   23.060    0.000   32.936    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   565113    6.181    0.000   16.017    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  1247430   10.768    0.000   10.768    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 85965134    9.876    0.000    9.876    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+ 10140904    6.579    0.000    6.579    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+  1032838    5.687    0.000    6.121    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    58602    0.805    0.000    1.790    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    53791    0.498    0.000    0.498    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   316290    0.336    0.000    0.336    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   376742    0.053    0.000    0.053    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62792 archi - Random.         278594326 function calls in 583.438 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   77.547   77.547  583.438  583.438 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 85329597  434.609    0.000  467.329    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 86459969   23.393    0.000   33.202    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   622575    6.847    0.000   17.748    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  1403694   12.177    0.000   12.177    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 16302274   10.582    0.000   10.582    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+ 86459969    9.809    0.000    9.809    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+  1130372    6.275    0.000    6.757    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    79272    1.082    0.000    2.417    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    75137    0.699    0.000    0.699    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   316414    0.358    0.000    0.358    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   415050    0.060    0.000    0.060    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62690 archi - Random.         2053390 function calls in 3.916 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.504    0.504    3.916    3.916 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   530375    2.435    0.000    2.642    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    71872    0.388    0.000    0.420    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   602247    0.169    0.000    0.239    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5154    0.057    0.000    0.149    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   220668    0.144    0.000    0.144    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13374    0.117    0.000    0.117    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   602247    0.071    0.000    0.071    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1533    0.020    0.000    0.046    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      929    0.008    0.000    0.008    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1552    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3436    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62780 archi - Random.         277138764 function calls in 528.166 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1   75.903   75.903  528.166  528.166 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 85245797  382.851    0.000  415.343    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 86359395   23.161    0.000   32.965    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   612789    6.675    0.000   17.317    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  1376840   11.848    0.000   11.848    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 86359395    9.804    0.000    9.804    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+ 15199088    9.730    0.000    9.730    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+  1113598    6.127    0.000    6.599    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    75631    1.021    0.000    2.285    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    71434    0.657    0.000    0.657    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   316268    0.332    0.000    0.332    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   408526    0.057    0.000    0.057    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62878 archi - Random.         2081595 function calls in 3.966 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.521    0.521    3.966    3.966 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   538027    2.482    0.000    2.692    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72157    0.363    0.000    0.392    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   610184    0.170    0.000    0.239    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5193    0.059    0.000    0.154    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   224762    0.148    0.000    0.148    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13526    0.121    0.000    0.121    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   610184    0.069    0.000    0.069    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1570    0.022    0.000    0.049    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      959    0.009    0.000    0.009    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1568    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3462    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62764 archi - Random.         270799606 function calls in 634.126 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1  189.191  189.191  634.126  634.126 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+ 84957340  382.035    0.000  414.161    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+ 85988150   22.836    0.000   32.563    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+   563871    6.223    0.000   16.095    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+  1243874   10.795    0.000   10.795    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+ 85988150    9.727    0.000    9.727    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+ 10223823    6.668    0.000    6.668    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+  1030810    4.956    0.000    5.394    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+    58066    0.799    0.000    1.776    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+    53303    0.501    0.000    0.501    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+   316302    0.341    0.000    0.341    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+   375914    0.054    0.000    0.054    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 3.980 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.517    0.517    3.980    3.980 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.476    0.000    2.687    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.364    0.000    0.393    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.169    0.000    0.240    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.066    0.000    0.172    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.144    0.000    0.144    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.135    0.000    0.135    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.071    0.000    0.071    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.025    0.000    0.055    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 3.984 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.522    0.522    3.984    3.984 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.481    0.000    2.691    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.363    0.000    0.392    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.168    0.000    0.239    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.065    0.000    0.169    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.145    0.000    0.145    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.132    0.000    0.132    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.070    0.000    0.070    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.024    0.000    0.053    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 4.004 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.523    0.523    4.004    4.004 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.482    0.000    2.693    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.369    0.000    0.398    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.169    0.000    0.240    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.068    0.000    0.176    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.147    0.000    0.147    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.137    0.000    0.137    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.071    0.000    0.071    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.025    0.000    0.056    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 3.997 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.523    0.523    3.997    3.997 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.483    0.000    2.693    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.368    0.000    0.398    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.169    0.000    0.239    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.067    0.000    0.172    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.146    0.000    0.146    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.134    0.000    0.134    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.070    0.000    0.070    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.024    0.000    0.054    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 3.999 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.525    0.525    3.999    3.999 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.485    0.000    2.695    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.370    0.000    0.400    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.169    0.000    0.240    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.065    0.000    0.168    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.145    0.000    0.145    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.132    0.000    0.132    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.071    0.000    0.071    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.025    0.000    0.055    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 3.964 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.520    0.520    3.964    3.964 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.478    0.000    2.689    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.361    0.000    0.389    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.169    0.000    0.239    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.063    0.000    0.162    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.142    0.000    0.142    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.127    0.000    0.127    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.071    0.000    0.071    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.023    0.000    0.051    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.009    0.000    0.009    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 3.974 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.519    0.519    3.974    3.974 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.478    0.000    2.687    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.364    0.000    0.392    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.168    0.000    0.238    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.065    0.000    0.168    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.143    0.000    0.143    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.131    0.000    0.131    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.070    0.000    0.070    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.024    0.000    0.053    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 3.981 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.520    0.520    3.981    3.981 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.481    0.000    2.691    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.365    0.000    0.393    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.167    0.000    0.239    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.065    0.000    0.169    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.143    0.000    0.143    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.131    0.000    0.131    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.072    0.000    0.072    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.024    0.000    0.053    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.010    0.000    0.010    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Parte grafo versione Wave con 400 nodi e 62888 archi - Random.         2088640 function calls in 3.945 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.510    0.510    3.945    3.945 {method 'get_max_flow' of 'max_flow_wave.GoldbergWave' objects}
+   542919    2.479    0.000    2.688    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:441(__getitem__)
+    72456    0.360    0.000    0.389    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:459(__setitem__)
+   615375    0.168    0.000    0.238    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:405(__key_trans)
+     5391    0.061    0.000    0.157    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1777(edge)
+   215408    0.141    0.000    0.141    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3241(_v_eq)
+    13976    0.123    0.000    0.123    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1760(vertex)
+   615375    0.069    0.000    0.069    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:548(key_type)
+     1597    0.022    0.000    0.049    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2041(add_edge)
+      982    0.009    0.000    0.009    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:2053(remove_edge)
+     1564    0.002    0.000    0.002    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:3247(_v_ne)
+     3594    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/graph-tool/2.27_1/lib/python3.7/site-packages/graph_tool/__init__.py:1802(edges)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
