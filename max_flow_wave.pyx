@@ -63,16 +63,16 @@ cdef class GoldbergWave:
         #print("Chosen vertex:" + str(vertex))
         for edge in list(vertex.out_edges()):
             #print("Edge:"+str(edge)+" excess "+str(self.excess[vertex]))
-            if self.height[edge.source()] != self.height[edge.target()] + 1:
+            target = edge.target()
+            if self.height[vertex] != self.height[target] + 1:
                 continue
 
             success = True
             delta = min(self.excess[vertex], self.res[edge])
-            self.send_flow(vertex, edge.target(), delta)
+            vertex_excess = self.send_flow(vertex, target, delta)
             #print("Pushing "+str(delta)+" along "+str(edge))
             #self.__print_residuals()
-
-            if self.excess[vertex] == 0:
+            if vertex_excess == 0:
                 break
         return success
 
@@ -89,8 +89,9 @@ cdef class GoldbergWave:
         min_h = float('inf')
         for edge in vertex.out_edges():
             #print("Out edges "+str(edge))
-            if self.height[edge.target()] < min_h:
-                min_h = self.height[edge.target()]
+            target = edge.target()
+            if self.height[target] < min_h:
+                min_h = self.height[target]
 
         if min_h == float('inf'):
             return False
@@ -104,13 +105,15 @@ cdef class GoldbergWave:
             if self.real[e] != real:
                 reverse_edge = e
 
-        self.increase_res(self.graph.edge(source, target), -value)
+        self.increase_res(edge, -value)
         if not reverse_edge:
             reverse_edge = self.graph.add_edge(target, source)
             self.real[reverse_edge] = not real
         self.increase_res(reverse_edge, value)
         self.set_excess(target, self.excess[target] + value)
-        self.set_excess(source, self.excess[source] - value)
+        source_excess = self.excess[source] - value
+        self.set_excess(source, source_excess)
+        return source_excess
 
     cdef increase_res(self, edge, int value):
         self.res[edge] += value
