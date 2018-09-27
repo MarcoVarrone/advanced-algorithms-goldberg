@@ -5,8 +5,8 @@ DIFFERENT_NODES = 4
 SAMPLES = 15
 
 #plotting Goldberg implementation
-file_100 = open("temporal_complexity_data_wave_100 edges for each vertex", "r")
-file = open("temporal_complexity_data_wave_4 edges for each vertex", "r")
+file_100 = open("Complexity_data/temporal_complexity_data_wave_100 edges for each vertex", "r")
+file = open("Complexity_data/temporal_complexity_data_wave_4 edges for each vertex", "r")
 
 nodes = []
 edges = []
@@ -62,10 +62,11 @@ plt.ylabel('time')
 plt.title("Temporal complexity Wave implementation")
 red_patch = mpatches.Patch(color='red', label='4 edges per vertex')
 blu_patch = mpatches.Patch(color='blue', label='100 edges per vertex')
-plt.legend(handles=[red_patch, blu_patch])
+green_patch = mpatches.Patch(color='green', label='Theoretical complexity')
+plt.legend(handles=[green_patch, red_patch, blu_patch])
 plt.plot(nodes, seconds, 'r')
 plt.plot(nodes, seconds_100, 'b')
-plt.plot(nodes, complexity)
+plt.plot(nodes, complexity, 'g')
 plt.show()
 
-#f.savefig("temporal_complexity_wave_4 vs 10 edges_per_vertex.pdf", bbox_inches='tight')
+f.savefig("Complexity_graphs/temporal_complexity_wave_4 vs 10 edges_per_vertex.pdf", bbox_inches='tight')
