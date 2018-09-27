@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-DIFFERENT_NODES = 4
-SAMPLES = 15
+DIFFERENT_NODES = 9
+SAMPLES = 20
 
 #plotting Goldberg implementation
 file = open("temporal_complexity_data_wave_4 edges for each vertex", "r")
@@ -36,6 +36,7 @@ for i in range(0, DIFFERENT_NODES):
     #seconds += [sum(local_seconds) / float(len(local_seconds))]
     #max case
     seconds += [max(local_seconds)]
+    print(seconds)
     first_iteration = True
 
 
@@ -59,4 +60,4 @@ plt.plot(nodes, complexity, 'b')
 plt.show()
 
 
-f.savefig("temporal_complexity_data_wave_max_case.pdf", bbox_inches='tight')
+#f.savefig("temporal_complexity_data_wave_max_case.pdf", bbox_inches='tight')
