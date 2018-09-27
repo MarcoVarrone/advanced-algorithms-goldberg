@@ -4,7 +4,7 @@ DIFFERENT_NODES = 9
 SAMPLES = 35
 
 #plotting Goldberg implementation
-file = open("temporal_complexity_data_goldberg_4 edges for each vertex_10-90_nodes", "r")
+file = open("Complexity_data/temporal_complexity_data_goldberg_4 edges for each vertex_10-90_nodes", "r")
 nodes = []
 edges = []
 seconds = []
@@ -30,7 +30,10 @@ for i in range(0, DIFFERENT_NODES):
 
         file = file[file.find("in"):]
         local_seconds += [float(file[3:file.find(" sec")])]
-    seconds += [sum(local_seconds) / float(len(local_seconds))]
+    #average case
+    #seconds += [sum(local_seconds) / float(len(local_seconds))]
+    #max case
+    seconds += [max(local_seconds)]
     first_iteration = True
 
 print(nodes)
@@ -43,12 +46,12 @@ for i in range(0, DIFFERENT_NODES):
 f = plt.figure()
 
 f = plt.figure()
-plt.xlabel('time')
-plt.ylabel('time/O(V^2 * E)')
+plt.xlabel('Time')
+plt.ylabel('Time/O(n^2 * m)')
 plt.title("Temporal complexity Goldberg implementation")
 plt.plot(seconds, result)
 plt.show()
 
 
 
-#f.savefig("temporal_complexity_plot_4_edges_per_vertex.pdf", bbox_inches='tight')
+f.savefig("Complexity_graphs/temporal_complexity_Goldberg_max_case_4_edges_per_vertex.pdf", bbox_inches='tight')

@@ -69,4 +69,4 @@ plt.plot(nodes, seconds_100, 'b')
 plt.plot(nodes, complexity, 'g')
 plt.show()
 
-f.savefig("Complexity_graphs/temporal_complexity_wave_4 vs 10 edges_per_vertex.pdf", bbox_inches='tight')
+#f.savefig("Complexity_graphs/temporal_complexity_wave_4 vs 10 edges_per_vertex.pdf", bbox_inches='tight')
