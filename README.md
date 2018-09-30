@@ -20,11 +20,16 @@ and random numbers generation
 ### Testing
 The following packages are required for the execution of the test routines:
 * [pytest](https://docs.pytest.org/en/latest/): for running unit tests
-* [cProfile](https://docs.python.org/3/library/profile.html): for performing time complexity analysis
+* [cProfile](https://docs.python.org/3/library/profile.html) and [pstats](https://docs.python.org/3.6/library/profile.html): for performing time complexity analysis
 * [memory_profiler](https://pypi.org/project/memory_profiler/): for performing space complexity analysis
 * [matplotlib](https://matplotlib.org/): for plotting complexity test results
 
 ## Execution
+### Compilation
+The three files corresponding to the different implementations must be first compiled.<br>
+It is sufficient to execute `python setup.py build_ext --inplace`
+
+### Execution
 The algorithm can be executed by calling `python main.py`
 followed by the possible arguments:<br>
 **-h --help** show help message and exit <br>
@@ -36,3 +41,14 @@ followed by the possible arguments:<br>
 **-u --undirected** set the graph as undirected <br>
 **-a --algorithm {generic,height,wave}** select the algorithm to compute the maximum flow (Default: generic) <br>
 **-c --compare** if used, the maximum flow value will be compared with the one resulting from the graph-tool library 
+
+### Unit tests
+To perform unit testing it sufficient to call `pytest --disable-pytest-warnings`.<br>
+The following tests will be executed:
+![tests](https://image.ibb.co/eBeW1z/Cattura.png)
+
+test_source_sinks.py checks if the created graphs have one and only one source and one and only one sink.<br>
+The other tests check if the maximum flow returned by the implementation is correct by comparing it
+with the value returned by graph-tool.
+
+### Complexity analysis
