@@ -4,7 +4,7 @@ DIFFERENT_NODES = 9
 SAMPLES = 35
 
 #plotting Goldberg implementation
-file = open("Complexity_data/temporal_complexity_data_goldberg_4 edges for each vertex_10-90_nodes", "r")
+file = open("complexity_data/temporal_complexity_data_goldberg_4 edges for each vertex_10-90_nodes", "r")
 nodes = []
 edges = []
 seconds = []

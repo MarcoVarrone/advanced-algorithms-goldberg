@@ -5,8 +5,8 @@ DIFFERENT_NODES = 4
 SAMPLES = 15
 
 #plotting Goldberg implementation
-file_100 = open("Complexity_data/temporal_complexity_data_wave_100 edges for each vertex", "r")
-file = open("Complexity_data/temporal_complexity_data_wave_4 edges for each vertex", "r")
+file_100 = open("complexity_data/temporal_complexity_data_wave_100 edges for each vertex", "r")
+file = open("complexity_data/temporal_complexity_data_wave_4 edges for each vertex", "r")
 
 nodes = []
 edges = []
