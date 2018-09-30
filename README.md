@@ -42,6 +42,11 @@ followed by the possible arguments:<br>
 **-a --algorithm {generic, height, wave}** the algorithm to compute the maximum flow (Default: generic) <br>
 **-c --compare** if used, the maximum flow value will be compared with the one resulting from the graph-tool library 
 
+For example, to plot the execution time the Goldberg's highest label preflow algorithm
+on a scale-free graph with 30 nodes
+and comparing the result with the graph-tool's one, call:<br>
+`python3 main.py -g scale-free -u -s 543 -n 30 -c -a height`
+
 ### Unit tests
 To perform unit testing it sufficient to call `pytest --disable-pytest-warnings`.<br>
 The following tests will be executed:
@@ -63,5 +68,11 @@ followed by the possible arguments:<br>
 **-a --algorithm {generic, wave}** the algorithm to compute the maximum flow (Default: generic) <br>
 **-s --samples <SAMPLES>** the number of samples for each graph size 
 **-r --reduction {average,max}** how the samples are summarized (by average or by taking the maximum)
+
 The stats of the execution will be shown in file `complexity_data/time_complexity_data_DATE.txt`.<br>
 The plot of the execution will be shown in file `complexity_graphs/time_complexity_plot_DATE.pdf`.
+
+For example, to plot the execution time the Goldberg's wave algorithm
+on a delaunay graph with 20, 30, 40, 50 nodes 
+and respectively 80, 120, 160, 200 edges, repeating the execution 5 times, call:<br>
+`python time_complexity.py -g delaunay -n 20 30 40 50 -m 80 120 160 200 -s 5 -a wave`
