@@ -45,7 +45,7 @@ followed by the possible arguments:<br>
 For example, to plot the execution time the Goldberg's highest label preflow algorithm
 on a scale-free graph with 30 nodes
 and comparing the result with the graph-tool's one, call:<br>
-`python3 main.py -g scale-free -u -s 543 -n 30 -c -a height`
+`python main.py -g scale-free -u -s 543 -n 30 -c -a height`
 
 ### Unit tests
 To perform unit testing it sufficient to call `pytest --disable-pytest-warnings`.<br>
