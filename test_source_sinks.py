@@ -2,6 +2,7 @@ from numpy.random import randint
 import graph_tool.all as gt
 from generation.Triangulation import Triangulation
 from generation.ScaleFree import ScaleFree
+from generation.Random import Random
 import pytest
 
 
@@ -28,6 +29,7 @@ def has_unique_sink(graph):
 
 
 sizes = [10, 25, 50, 75, 100]
+sizes_random = [(10, 50), (25, 150), (50, 300), (75, 100), (100, 500)]
 
 
 @pytest.mark.parametrize('n', sizes)
@@ -59,6 +61,18 @@ def test_source_sink_triangulation_delaunay(n):
 def test_source_sink_scale_free(n):
     seed_number = randint(1, 1000)
     generator = ScaleFree(n, directed=True, seed_number=seed_number)
+    graph, source, sink = generator.generate()
+    count_source, src = has_unique_source(graph)
+    count_sink, snk = has_unique_sink(graph)
+    assert count_source == 1
+    assert count_sink == 1
+    assert source == src
+    assert sink == snk
+
+@pytest.mark.parametrize('size', sizes_random)
+def test_source_sink_random(size):
+    seed_number = randint(1, 1000)
+    generator = Random(size[0], size[1], directed=True, seed_number=seed_number)
     graph, source, sink = generator.generate()
     count_source, src = has_unique_source(graph)
     count_sink, snk = has_unique_sink(graph)
