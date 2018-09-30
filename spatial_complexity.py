@@ -6,7 +6,7 @@ import test_triangulation as t
 import graph_tool.all as gt
 from numpy.random import seed, random, random_integers
 from scipy.linalg import norm
-from max_flow import Goldberg
+from max_flow_residuals import Goldberg
 import math
 from memory_profiler import profile, memory_usage
 
