@@ -31,9 +31,9 @@ for i in range(0, DIFFERENT_NODES):
         file = file[file.find("in"):]
         local_seconds += [float(file[3:file.find(" sec")])]
     #average case
-    #seconds += [sum(local_seconds) / float(len(local_seconds))]
+    seconds += [sum(local_seconds) / float(len(local_seconds))]
     #max case
-    seconds += [max(local_seconds)]
+    #seconds += [max(local_seconds)]
     first_iteration = True
 
 print(nodes)
@@ -47,7 +47,7 @@ f = plt.figure()
 
 f = plt.figure()
 plt.xlabel('Time')
-plt.ylabel('Time/O(n^2 * m)')
+plt.ylabel('Time/(n^2 * m)')
 plt.title("Temporal complexity Goldberg implementation")
 plt.plot(seconds, result)
 plt.show()

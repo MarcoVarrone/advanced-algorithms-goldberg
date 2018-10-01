@@ -13,10 +13,10 @@ from generation.ScaleFree import ScaleFree
 from generation.Triangulation import Triangulation
 from generation.Random import Random
 
-file = open("temporal_complexity_data_goldberg_4 edges for each vertex", "w")
+file = open("temporal_complexity_data_goldberg_4 edges for each vertex_10-90_nodes", "w")
 
-for nodes in [100, 200, 300, 400, 500]:
-    for i in range(0, 15):
+for nodes in [10, 20, 30, 40, 50, 60, 70, 80, 90]:
+    for i in range(0, 35):
         #Goldberg version - using as graph generator Random
         seed_number = randint(1, 1000)
         generator = Random(nodes, nodes*4, directed=True, seed_number=seed_number)
